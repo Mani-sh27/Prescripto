@@ -6,7 +6,7 @@ const TopDoctors = () => {
     <div>
       <h1 className='text-4xl mt-20  text-center font-semibold'>Top Doctors</h1>
       <p className='text-center mt-4'>Simple Browse through our extensive list of trusted doctors</p>
-      <div className='grid w-full grid-cols-auto '>
+      <div className='grid w-full grid-cols-auto ga'>
         {
           doctors.slice(0, 10).map((item, index) => (
             <div className='    w-60 mx-auto cursor-pointer border-blue-100 border-2 rounded-2xl hover:-translate-y-2 duration-500 transition-all'>
