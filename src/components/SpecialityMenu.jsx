@@ -11,7 +11,7 @@ const SpecialityMenu = () => {
            {
                 specialityData.map((item , index)=>(
                     <Link key={index} to={`/doctors/${item.speciality}`} className=' hover:-translate-y-2 transition-all duration-500'>
-                        <img className='w-16 sm:w-24 mb-2' src={item.image} alt="" />
+                        <img className='w-16 sm:w-24 mb-2 tra' src={item.image} alt="" />
                         <p>{item.speciality}</p>
                     </Link>
                 ))
