@@ -12,7 +12,7 @@ const TopDoctors = () => {
             <div className='  mt-6  w-60 mx-auto cursor-pointer border-blue-100 border-2 rounded-2xl hover:-translate-y-2 duration-500 transition-all'>
               <img className='bg-blue-50  rounded-t-2xl' src={item.image} alt="" />
               <div>
-                <p className='ms-8 mt-2 text-green-500'>Available</p>
+                <p className='ms-8 mt-2 text-green-600'>Available</p>
               </div>
               <div>
                 <p className='my-2 mx-5 font-semibold text-md'>{item.name}</p>
