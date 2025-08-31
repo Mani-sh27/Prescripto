@@ -15,7 +15,7 @@ const TopDoctors = () => {
                 <p className='ms-8'>Available</p>
               </div>
               <div>
-                <p className='my-2 mx-5 p-'>{item.name}</p>
+                <p className='my-2 mx-5 '>{item.name}</p>
                 <p>{item.speciality}</p>
               </div>
 
