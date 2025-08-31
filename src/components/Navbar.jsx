@@ -25,7 +25,7 @@ const Navbar = () => {
           </NavLink>
         </ul>
         
-            <button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>\</button>
+            <button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>Create Account</button>
         
       </div>
       <hr className='mx-28' />
