@@ -9,7 +9,7 @@ const TopDoctors = () => {
       <div className='grid w-full grid-cols-auto'>
         {
           doctors.slice(0, 10).map((item, index) => (
-            <div className='  mt-16 ms-10 me-64  w-64 cursor-pointer border-blue-50 border-3 rounded-2xl hover:-translate-y-2 duration-500 transition-all'>
+            <div className='  mt-16 ms-10 me-64  w-64 cursor-pointer border-blue-100 border-3 rounded-2xl hover:-translate-y-2 duration-500 transition-all'>
               <img className='bg-blue-50  rounded-t-2xl ' src={item.image} alt="" />
               <div>
                 <p className='ms-8'>Available</p>
