@@ -4,7 +4,7 @@
     @apply block;
 }
 ::-webkit-scrollbar {
-    display:hidden; 
+    overflow:hidden; 
 }
 @utility grid-cols-auto {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
