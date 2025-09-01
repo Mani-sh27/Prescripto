@@ -12,7 +12,5 @@ const AppContextProvider = (props) => {
         <AppContext.Provider>
             <App />
         </AppContext.Provider>
-
-
     )
 }
