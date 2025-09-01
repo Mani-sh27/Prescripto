@@ -12,4 +12,4 @@ const AppContextProvider = (props) => {
         </AppContext.Provider>
     )
 }
-export default Ap
+export default Appcontex
