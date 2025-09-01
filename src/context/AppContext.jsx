@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { doctors } from "../assets/";
+import { doctors } from "../assets/as";
 import { BrowserRouter } from "react-router-dom";
 
 export const AppContext = createContext()
