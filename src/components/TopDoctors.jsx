@@ -3,7 +3,7 @@ import { assets, doctors } from '../assets/assets_frontend/assets'
 
 const TopDoctors = () => {
 
-   const navigate = useContext();
+   const navigate = useN();
   const {doctors} = useContext(AppContext)
   return (
     <div>
