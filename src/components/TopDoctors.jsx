@@ -1,9 +1,10 @@
 import React from 'react'
 import { assets, doctors } from '../assets/assets_frontend/assets'
+import { useNavigate } from 'react-router-dom';
 
 const TopDoctors = () => {
 
-   const navigate = useN();
+   const navigate = useNavigate();
   const {doctors} = useContext(AppContext)
   return (
     <div>
