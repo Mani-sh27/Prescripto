@@ -9,11 +9,11 @@ const AppContextProvider = (props) => {
         doctors
     }
     return (
-      
-            <AppContext.Provider>
-                <App />
-            </AppContext.Provider>
-        </BrowserRouter>
+
+        <AppContext.Provider>
+            <App />
+        </AppContext.Provider>
+
 
     )
 }
