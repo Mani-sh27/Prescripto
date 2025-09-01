@@ -1,5 +1,6 @@
 import { createContext } from "react";
 import { doctors } from "../assets/assets_frontend/assets";
+import { BrowserRouter } from "react-router-dom";
 
 export const AppContext = createContext()
 
@@ -8,7 +9,7 @@ const AppContextProvider = () => {
         doctors
     }
     return (
-        Browse
+        BrowserRouter
         <AppContext.Provider>
             <App />
         </AppContext.Provider>
