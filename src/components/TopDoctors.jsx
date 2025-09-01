@@ -2,7 +2,7 @@ import React from 'react'
 import { assets, doctors } from '../assets/assets_frontend/assets'
 import { useNavigate } from 'react-router-dom';
 import { useContext } from "react";
-import { a } from "";
+import { AppContext } from '../context/AppContext';
 
 const TopDoctors = () => {
 
