@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 
 export const AppContext = createContext()
 
-const AppContextProvider = (this.props.first) => {
+const AppContextProvider = (props) => {
     const value = {
         doctors
     }
