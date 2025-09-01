@@ -7,7 +7,7 @@ const AppContextProvider = (props) => {
         doctors
     }
     return (
-        <AppContext.Provider value=>
+        <AppContext.Provider value={}>
             {props.children}
         </AppContext.Provider>
     )
