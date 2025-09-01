@@ -10,10 +10,10 @@ const AppContextProvider = () => {
     }
     return (
         <BrowserRouter>
-        
-        </BrowserRouter>
-        <AppContext.Provider>
+   <AppContext.Provider>
             <App />
         </AppContext.Provider>
+        </BrowserRouter>
+     
     )
 }
