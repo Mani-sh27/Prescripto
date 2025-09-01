@@ -8,6 +8,8 @@ const AppContextProvider = () => {
         doctors
     }
     return (
-        <AppContext.Provider></AppContext.Provider>
+        <AppContext.Provider>
+            
+        </AppContext.Provider>
     )
 }
