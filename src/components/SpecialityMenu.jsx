@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { specialityData } from '../assets/assets_frontend/assets';
 import {Link} from 'react-router-dom';
 const SpecialityMenu = () => {
-  const navigate = useContext()
+  const navigate = useContext();
 
   return (
     <div id='speciality' >
