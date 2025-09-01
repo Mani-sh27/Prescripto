@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets, doctors } from '../assets/assets_frontend/assets'
 import { useNavigate } from 'react-router-dom';
-import { use } from "react";
+import { usec } from "react";
 
 const TopDoctors = () => {
 
