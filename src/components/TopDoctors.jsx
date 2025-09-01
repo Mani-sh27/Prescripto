@@ -30,7 +30,7 @@ const TopDoctors = () => {
           ))
         }
       </div>
-      <button className='bg-blue-50' onc>more</button>
+      <button className='bg-blue-50' oncli>more</button>
     </div>
   )
 }
