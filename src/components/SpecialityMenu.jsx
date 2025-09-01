@@ -3,6 +3,7 @@ import { specialityData } from '../assets/assets_frontend/assets';
 import {Link} from 'react-router-dom';
 const SpecialityMenu = () => {
   const navigate = useContext();
+  const 
 
   return (
     <div id='speciality' >
