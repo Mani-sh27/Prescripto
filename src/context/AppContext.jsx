@@ -8,6 +8,6 @@ const AppContextProvider = () => {
         doctors
     }
     return (
-        <App></App>
+        <AppContext.pro></AppContext.pro>
     )
 }
