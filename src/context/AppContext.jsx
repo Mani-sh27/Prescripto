@@ -9,7 +9,7 @@ const AppContextProvider = () => {
         doctors
     }
     return (
-        <Bro=ouse></Bro=ouse>
+        <></>
         <AppContext.Provider>
             <App />
         </AppContext.Provider>
