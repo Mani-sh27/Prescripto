@@ -9,7 +9,6 @@ const AppContextProvider = (props) => {
         doctors
     }
     return (
-
         <AppContext.Provider>
             <App />
         </AppContext.Provider>
