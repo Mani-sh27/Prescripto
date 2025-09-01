@@ -5,15 +5,15 @@ import { BrowserRouter } from "react-router-dom";
 export const AppContext = createContext()
 
 const AppContextProvider = () => {
-    const  value = {
+    const value = {
         doctors
     }
     return (
         <BrowserRouter>
-   <AppContext.Provider>
-            <App />
-        </AppContext.Provider>
+            <AppContext.Provider>
+                <App />
+            </AppContext.Provider>
         </BrowserRouter>
-     
+
     )
 }
