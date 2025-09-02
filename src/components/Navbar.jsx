@@ -11,7 +11,7 @@ const Navbar = () => {
             <li>Home</li>
             <hr className='border-none h-0.5  bg-primary w-3/5 m-auto' />
           </NavLink>
-          <NavLink to='/'>
+          <NavLink to='/D'>
             <li>ALL DOCTOR</li>
             <hr className='border-none h-0.5  bg-primary w-3/5 m-auto'/>
           </NavLink>
