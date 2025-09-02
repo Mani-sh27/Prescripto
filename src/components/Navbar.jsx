@@ -35,7 +35,7 @@ const Navbar = () => {
               <img src={assets.dropdown_icon} />
               <div className=''>
               <p onClick={()=>navigate('my-profile')}></p>
-              <p onClick={()=>}></p>
+              <p onClick={()=>na}></p>
               <p></p>
               </div>
             </div>
