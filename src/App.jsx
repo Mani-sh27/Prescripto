@@ -24,10 +24,7 @@ function App() {
         <Route path="/">
         <>
         </>
-          <Navbar />
-          <Header />
-          <SpecialityMenu />
-          <TopDoctors />
+      
         </Route>
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />
