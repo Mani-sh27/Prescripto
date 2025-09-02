@@ -33,8 +33,8 @@ const Navbar = () => {
             <div >
               <img className='w-9 rounded-full m-' src={assets.profile_pic} alt="" />
               <img src={assets.dropdown_icon} />
-              <div>
-                
+              <div class>
+
               </div>
             </div>
             : <button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>Create Account</button>
