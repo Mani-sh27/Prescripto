@@ -22,14 +22,15 @@ function App() {
 
             <Navbar />
       <Routes>
-        <Route path="/">
-          <>
-            <Header />
-            <SpecialityMenu />
-            <TopDoctors />
-            <Home />
-          </>
-        </Route>
+       <Route path="/" element={
+  <>
+    <Header />
+    <SpecialityMenu />
+    <TopDoctors />
+    <Home />
+  </>
+} />
+
         
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/doctors/:speciality' element={<Doctors />} />
