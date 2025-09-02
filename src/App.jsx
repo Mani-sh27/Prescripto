@@ -29,7 +29,7 @@ function App() {
             <TopDoctors />
           </>
         </Route>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={} />
         <Route path='/doctors' element={<Doctors />} />
         <Route path='/doctors/:speciality' element={<Doctors />} />
         <Route path='/login' element={<Login />} />
