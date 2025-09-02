@@ -22,7 +22,7 @@ function App() {
 
       <Routes>
         <Route path="/">
-        <Navbar />
+          <Navbar />
           <Header />
           <SpecialityMenu />
           <TopDoctors />
