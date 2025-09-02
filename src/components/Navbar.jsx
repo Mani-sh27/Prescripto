@@ -29,7 +29,7 @@ const [token , setToken] = useState(true)
           </NavLink>
         </ul>
           {
-            token ? <div><img src={assets.} alt="" /></div>:<button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>Create Account</button>
+            token ? <div><img src={assets.profile_pic} alt="" /></div>:<button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>Create Account</button>
 
           }
       
