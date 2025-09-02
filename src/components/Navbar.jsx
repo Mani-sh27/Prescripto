@@ -36,6 +36,7 @@ const Navbar = () => {
               <div className=''>
               <p onClick={()=>navigate('my-profile')}></p>
               <p onClick={()=>navigate('my-appointments')}></p>
+              <p onClick={()=>navigate('my-appointments')}></p>
               <p></p>
               </div>
             </div>
