@@ -33,7 +33,11 @@ const Navbar = () => {
             <div >
               <img className='w-9 rounded-full m-' src={assets.profile_pic} alt="" />
               <img src={assets.dropdown_icon} />
-              <div class>
+              <div class name {
+                constructor(parameters) {
+                  
+                }
+              }>
 
               </div>
             </div>
