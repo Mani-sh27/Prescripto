@@ -6,7 +6,7 @@ const Navbar = () => {
     <header>
       <div className='flex justify-around m-4'>
         <img src={assets.logo}  className='' />
-        <ul className='flex gap-16 items-center me-6 hover:'>
+        <ul className='flex gap-16 items-center me-6 hover:l'>
           <NavLink to='/'>
             <li>Home</li>
             <hr className='border-none h-0.5  bg-primary w-3/5 m-auto' />
