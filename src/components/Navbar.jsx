@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
-const navigate = 
+const navigate = use
 
   return (
     <header>
