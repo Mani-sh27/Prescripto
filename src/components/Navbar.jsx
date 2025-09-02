@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 import { NavLink, useNavigate } from "react-router-dom";
 const Navbar = () => {
-const navigate = useNavigate();
-const [showMenu, setShowMenu] =useState(false);
-const [token , setToken] = useState(true)
+  const navigate = useNavigate();
+  const [showMenu, setShowMenu] = useState(false);
+  const [token, setToken] = useState(true)
 
   return (
     <header>
@@ -28,16 +28,16 @@ const [token , setToken] = useState(true)
             <hr className='border-none h-0.5  bg-primary w-3/5 m-auto' />
           </NavLink>
         </ul>
-          {
-            token ? 
+        {
+          token ?
             <div >
-              <img className='w-9 rounded-full m-' src={assets.profile_pic} alt="" /> 
+              <img className='w-9 rounded-full m-' src={assets.profile_pic} alt="" />
               <img src={assets.dropdown_icon} alt="" />
-              </div>
-              :<button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>Create Account</button>
+            </div>
+            : <button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>Create Account</button>
 
-          }
-      
+        }
+
       </div>
       <hr className='mx-28' />
 
