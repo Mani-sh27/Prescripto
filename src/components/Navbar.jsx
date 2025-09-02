@@ -34,7 +34,7 @@ const Navbar = () => {
               <img className='w-9 rounded-full m-' src={assets.profile_pic} alt="" />
               <img src={assets.dropdown_icon} />
               <div className=''>
-              <p></p>
+              <p onClick={}></p>
               <p></p>
               <p></p>
               </div>
