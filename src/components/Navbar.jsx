@@ -35,6 +35,7 @@ const Navbar = () => {
               <img src={assets.dropdown_icon} />
               <div className=''>
               <p></p>
+              <p></p>
               </div>
             </div>
             : <button className='me-20 bg-blue-400 rounded-full px-8 cursor-pointer '>Create Account</button>
