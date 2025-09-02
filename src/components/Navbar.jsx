@@ -2,6 +2,8 @@ import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
+
+  
   return (
     <header>
       <div className='flex justify-around m-4'>
