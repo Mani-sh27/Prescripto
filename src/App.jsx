@@ -20,9 +20,9 @@ function App() {
   return (
     <div>
 
-      <Navbar />
       <Routes>
         <Route path="/" element={
+      <Navbar />
           <>
             <Header />
             <SpecialityMenu />
