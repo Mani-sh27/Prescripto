@@ -21,9 +21,9 @@ function App() {
     <div>
 
       <Routes>
+            <Navbar />
         <Route path="/">
           <>
-            <Navbar />
             <Header />
             <SpecialityMenu />
             <TopDoctors />
