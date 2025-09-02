@@ -28,7 +28,6 @@ function App() {
             <SpecialityMenu />
             <TopDoctors />
           </>
-
         </Route>
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />
