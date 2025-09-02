@@ -20,8 +20,8 @@ function App() {
   return (
     <div>
 
-      <Routes>
             <Navbar />
+      <Routes>
         <Route path="/">
           <>
             <Header />
