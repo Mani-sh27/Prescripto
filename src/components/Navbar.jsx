@@ -1,8 +1,8 @@
 import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 const Navbar = () => {
-const navigate = use
+const navigate = useNavigate
 
   return (
     <header>
