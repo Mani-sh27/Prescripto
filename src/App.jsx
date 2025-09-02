@@ -19,10 +19,7 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <Header />
-      <SpecialityMenu />
-      <TopDoctors />
+      
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />
