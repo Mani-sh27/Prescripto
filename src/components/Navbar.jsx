@@ -15,7 +15,7 @@ const Navbar = () => {
             <li>ALL DOCTOR</li>
             <hr className='border-none h-0.5  bg-primary w-3/5 m-auto'/>
           </NavLink>
-          <NavLink to=''>
+          <NavLink to='/'>
             <li>ABOUT</li>
             <hr className='border-none h-0.5  bg-primary w-3/5 m-auto' />
           </NavLink>
