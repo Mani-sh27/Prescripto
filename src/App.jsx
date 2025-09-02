@@ -22,13 +22,13 @@ function App() {
 
       <Routes>
         <Route path="/">
-        <>
+          <>
             <Navbar />
-          <Header />
-          <SpecialityMenu />
-          <TopDoctors />
-        </>
-      
+            <Header />
+            <SpecialityMenu />
+            <TopDoctors />
+          </>
+
         </Route>
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />
