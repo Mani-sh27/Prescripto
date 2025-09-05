@@ -27,6 +27,7 @@ function App() {
         <Route path="/" element={
           <>
             <Header />
+             <TopDoctors />
             <SpecialityMenu />
            
             <Home />
