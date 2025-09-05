@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     
-    <div>
+    <div className='felx'>
         <div>
-            
+
         </div>
     </div>
   )
