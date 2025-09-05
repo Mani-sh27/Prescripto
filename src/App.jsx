@@ -22,7 +22,7 @@ function App() {
     <div>
 
         <Navbar />
-         <Footer />
+         
       <Routes>
         <Route path="/" element={
           <>
