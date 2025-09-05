@@ -4,10 +4,10 @@ const Banner = () => {
   return (
     <div>
         <div>
-            
+            <p></p>
         </div>
         <div>
-            
+
         </div>
     </div>
   )
