@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
   return (
     
-    <divgb className='flex '>
+    <divb className='flex '>
         <div>
 
         </div>
-    </divgb>
+    </divb>
   )
 }
 
