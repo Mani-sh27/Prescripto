@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prescripto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="font-sans bg-white">
+
+  <!-- Navbar -->
+  <header class="shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="https://via.placeholder.com/40" alt="Logo" class="w-10 h-10">
+        <span class="text-xl font-bold text-blue-600">Prescripto</span>
+      </div>
+
+      <!-- Nav Links (Desktop) -->
+      <nav class="hidden md:flex space-x-8 text-gray-800 font-medium">
+        <a href="#" class="hover:text-blue-600">Home</a>
+        <a href="#" class="hover:text-blue-600">All Doctor</a>
+        <a href="#" class="hover:text-blue-600">About</a>
+        <a href="#" class="hover:text-blue-600">Contact</a>
+      </nav>
+
+      <!-- Profile -->
+      <div class="hidden md:flex items-center space-x-2">
+        <img src="https://via.placeholder.com/40" alt="Profile" class="w-10 h-10 rounded-full border">
+        <div class="text-sm">
+          <p class="font-semibold">User Name</p>
+          <p class="text-gray-500 text-xs">Status/Role</p>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav class="hidden flex-col space-y-2 px-4 pb-4 md:hidden text-gray-800 font-medium" id="mobile-menu">
+      <a href="#" class="hover:text-blue-600">Home</a>
+      <a href="#" class="hover:text-blue-600">All Doctor</a>
+      <a href="#" class="hover:text-blue-600">About</a>
+      <a href="#" class="hover:text-blue-600">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
     
+    <!-- Left Content -->
+    <div>
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+        Book Appointment with Trusted Doctors
+      </h1>
+      <p class="mt-4 text-gray-600">
+        Get access to the best healthcare professionals and book appointments with ease.
+      </p>
+      <button class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+        Book Now
+      </button>
+    </div>
+
+    <!-- Right Image -->
+    <div class="flex justify-center">
+      <img src="https://via.placeholder.com/400x300" alt="Doctors" class="rounded-lg shadow-lg">
+    </div>
+  </section>
+
+  <!-- JS for Mobile Menu -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
 </body>
 </html>
