@@ -42,6 +42,7 @@ function App() {
         <Route path='/my-appointments' element={<MyAppointments />} />
         <Route path='/appointment' element={<Appointment />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
