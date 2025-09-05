@@ -7,7 +7,7 @@ const Banner = () => {
         <div>
             <p>Book Appointment</p>
             <p>with 100+ Truste Doctor</p>
-            <button className='' >Create account</button>
+            <button className=''  type=''>Create account</button>
         </div>
         <div className=''>
             <img  className='w-68' src={assets.appointment_img}  />
