@@ -25,8 +25,8 @@ function App() {
          <Footer />
       <Routes>
         <Route path="/" element={
-          <>'
-          '
+          <>
+          
             <Header />
             <SpecialityMenu />
             <TopDoctors />
