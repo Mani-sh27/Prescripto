@@ -5,7 +5,7 @@ const Banner = () => {
     <div>
         <div>
             <p>Book Appointmentr</p>
-            <p> with 100+ Truste Docto</p>
+            <p>with 100+ Truste Docto</p>
         </div>
         <div>
 
