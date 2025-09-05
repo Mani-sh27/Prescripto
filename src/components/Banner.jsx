@@ -1,4 +1,5 @@
 import React from 'react'
+import { assets } from '../assets/assets_frontend/assets'
 
 const Banner = () => {
   return (
@@ -8,7 +9,7 @@ const Banner = () => {
             <p>with 100+ Truste Doctor</p>
         </div>
         <div>
-            <img src={} alt="" />
+            <img src={assets.} alt="" />
         </div>
     </div>
   )
