@@ -13,7 +13,7 @@ const Header = () => {
                 <div className='flex flex-col gap-28 mt-4'>
                     <img className='relative top-40  w-24 ms-16 mt-5 ' src={assets.group_profiles} alt="" />
                     <p className='text-white ms-44'>Simply browse through our extensive list of trusted doctors. <br /> scheduled your appointment hassle-free </p>
-                    <a className='relative -top-24 left-24 p-2 ps-4 pt-4 rounded-full  bg-white w-56 hover:transition-all translate-y-4 duration-300' href="">Book Appointment<img className='relative left-4 -top-4.5 ' src={assets.arrow_icon} /></a>
+                    <a className='relative -top-24 left-24 p-2 ps-4 pt-4 rounded-full  bg-white w-56 hover:transition-all translate-y-4 duration-300' href="">Book Appointment<img className='relative left-42 -top-4.5 ' src={assets.arrow_icon} /></a>
                 </div>
             </div>
             <img src={assets.header_img} alt="" />
