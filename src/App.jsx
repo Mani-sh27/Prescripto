@@ -28,7 +28,8 @@ function App() {
           <>
             <Header />
             <SpecialityMenu />
-            <TopDoctors />  
+            <TopDoctors /> 
+            < 
           </>
         } />
 
