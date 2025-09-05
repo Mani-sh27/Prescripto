@@ -9,7 +9,7 @@ const Banner = () => {
             <p>with 100+ Truste Doctor</p>
         </div>
         <div>
-            <img  classrc={assets.appointment_img}  />
+            <img  class src={assets.appointment_img}  />
         </div>
     </div>
   )
