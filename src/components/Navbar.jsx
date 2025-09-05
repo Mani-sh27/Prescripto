@@ -31,7 +31,7 @@ const Navbar = () => {
         {
           token ?
             <div >
-              <img className='w-9 rounded-full m-' src={assets.profile_pic} alt="" />
+              <img className='w-9 rounded-full ' src={assets.profile_pic} alt="" />
               <img src={assets.dropdown_icon} />
               <div className=''>
               <p onClick={()=>navigate('my-profile')}></p>
