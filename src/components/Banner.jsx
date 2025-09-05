@@ -8,7 +8,7 @@ const Banner = () => {
             <p>with 100+ Truste Doctor</p>
         </div>
         <div>
-
+            
         </div>
     </div>
   )
