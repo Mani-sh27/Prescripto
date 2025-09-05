@@ -13,6 +13,7 @@ import Appointment from './pages/Appointment'
 import Header from './components/Header'
 import SpecialityMenu from './components/SpecialityMenu'
 import TopDoctors from './components/TopDoctors'
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +29,7 @@ function App() {
             <SpecialityMenu />
             <TopDoctors />
             <Home />
-            </>
+            <Footer />
           </>
         } />
 
