@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div>
         <div>
-            <p>Book Appointment </p>
+            <p>Book Appointment with </p>
         </div>
         <div>
 
