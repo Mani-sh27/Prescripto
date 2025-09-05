@@ -7,7 +7,7 @@ const Header = () => {
         <div className='flex justify-between bg-[#5f6fff] mx-28 h-[450px] mt-6 rounded-lg'>
             <div>
 
-                <h1 className='text-5xl font-semibold text-white relative top-40 left-16 '>Book Appointment  <br />with Trusted Doctors</h1>
+                <h1 className='text-5xl font-semibold text-white relative top-40 left-16 md:text-5xl'>Book Appointment  <br />with Trusted Doctors</h1>
 
 
                 <div className='flex flex-col gap-28 mt-4'>
