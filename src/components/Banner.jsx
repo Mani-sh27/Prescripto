@@ -9,7 +9,7 @@ const Banner = () => {
             <p>with 100+ Truste Doctor</p>
             <button className=''  type='button'>Create account</button>
         </div>
-        <div className='md'>
+        <div className='md-blo'>
             <img  className='w-68' src={assets.appointment_img}  />
         </div>
     </div>
