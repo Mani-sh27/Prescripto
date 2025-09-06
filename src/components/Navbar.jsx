@@ -19,7 +19,7 @@ const Navbar = () => {
           <NavLink className={({ isActive })=>`pb-1 ${isActive ? 'border border-b-2' : '' }`} to='/'>
             <li>Home</li>
           </NavLink> 
-          <NavLink className={({isActive})=>`${isActive? 'border border-b-2' : }`} to='/doctors'>
+          <NavLink className={({isActive})=>`${isActive? 'border border-b-2' : ''}`} to='/doctors'>
             <li>ALL DOCTOR</li>
             <hr  />
           </NavLink>
