@@ -27,7 +27,7 @@ const Header = () => {
           >
             Book Appointment
             <img
-              className='relative -top-4.5 sm: mx-auto md:mx-0'
+              className='relative -top-4.5 sm:f mx-auto md:mx-0'
               src={assets.arrow_icon}
               alt=''
             />
