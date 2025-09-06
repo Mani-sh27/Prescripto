@@ -10,7 +10,7 @@ const Header = () => {
           Book Appointment <br />with Trusted Doctors
         </h1>
 
-        <div className='flex  gap-28 mt-4 items-center md:items-start'>
+        <div className='flex flex-col gap-28 mt-4 items-center md:items-start'>
           <img
             className='md:relative top-40 w-24 ms-16 mt-5 sm:flex relative '
             src={assets.group_profiles}
