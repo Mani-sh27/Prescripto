@@ -1,5 +1,6 @@
 import React from 'react'
 import   { assets } from '../assets/assets_frontend/assets';
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <header>
@@ -9,7 +10,7 @@ const Navbar = () => {
         </div>
         <div>
           <ul>
-            <na></na>
+            <NavLink></navli>
           </ul>
         </div>
       </div>
