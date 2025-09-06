@@ -6,7 +6,7 @@ const Header = () => {
     <div className='lg:flex justify-between min-w-7xl  mx-auto  bg-[#5f6fff]   mt-6 rounded-lg 
                      '>
       <div className=' text-center '>
-        <h1 className='font-semibold sm:flex text-4xl text-white relative top-40 left-16 '>
+        <h1 className='font-semibold sm:flex text-5xl text-white relative top-40 left-16 '>
           Book Appointment <br />with Trusted Doctors
         </h1>
 
