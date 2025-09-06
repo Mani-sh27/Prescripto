@@ -26,7 +26,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink to='/about'>
             <li>ABOUT</li>
-            <hr className=' h-5 ' />
+            <hr />
           </NavLink>
           <NavLink to='/contact'>
             <li>CONTACT</li>
