@@ -15,7 +15,7 @@ const TopDoctors = () => {
       <div className='grid grid-cols-2 sm:grid-cols-5 grid-rows-2 mx-20'>
         {
           doctors.slice(0, 10).map((item, index) => (
-            <div className='p-6'>
+            <div className=''>
               <div className='mt-6 w-68 cursor-pointer border-blue-100 border-2 rounded-2xl hover:-translate-y-2 duration-500 transition-all'>
                 <img className='bg-blue-50  rounded-t-2xl ' src={item.image} />
                 <div>
