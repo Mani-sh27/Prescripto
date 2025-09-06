@@ -8,7 +8,9 @@ const Navbar = () => {
             <img src={assets.logo} alt="" />
         </div>
         <div>
-          
+          <ul>
+            
+          </ul>
         </div>
       </div>
 
