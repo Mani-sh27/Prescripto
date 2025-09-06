@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div>
           <ul>
-            <NavLink className={({isAtive})=>`${isAtive}`} to='/'>
+            <NavLink className={({isAtive})=>` pb-${isAtive}`} to='/'>
               <li className=''>HOME</li>
             </NavLink>
             <NavLink to='/doctors'>
