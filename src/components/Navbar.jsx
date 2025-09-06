@@ -9,23 +9,7 @@ const Navbar = () => {
 
   return (
     
-         me-6 md:gap-16 text-center '> 
-          <NavLink className={({ isActive })=>`pb-1${isActive ? 'border-none  border-b-2' : '' }`} to='/'>
-            <li>Home</li>
-          </NavLink> 
-          <NavLink className={({isActive})=>`pb-1${isActive ? 'border-none border-b-2' : ''}`} to='/doctors'>
-            <li>ALL DOCTOR</li>
-          </NavLink>
-          <NavLink className={({isActive})=>`pb-1${isActive ? 'border-none border-b-2' :''}`} to='/about'>
-            <li>ABOUT</li>
-          </NavLink>
-          <NavLink className={({isActive})=> `pb-1${isActive ? 'border border-b-2' :''}`} to='/contact'>
-            <li>CONTACT</li>
-          </NavLink>
-        </ul>
-
-        {/* Profile or Button */}
-        {
+        
           token ? (
             <div className=' gap-2 flex lg:-left-34 sm:flex relative -left-34 '>
               <img className='w-9 rounded-full ' src={assets.profile_pic} alt="" />
