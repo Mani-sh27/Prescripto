@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Header = () => {
   return (
-    <div className='flex justify-between lg:w-7xl bg-[#5f6fff] sm:flex w-3xl mt-6 rounded-lg sm:flex-col 
+    <div className='flex justify-between lg:w-7xl bg-[#5f6fff]  mt-6 rounded-lg sm:flex-col 
                       lg:mx-28 '>
       <div className=' text-center '>
         <h1 className='font-semibold text-white relative top-40 left-16 xs:flex text-3xl'>
