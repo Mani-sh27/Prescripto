@@ -13,6 +13,7 @@ const Navbar = () => {
             <NavLink to='/'>
               <li className=''></li>
             </NavLink>
+            </NavLink>
           </ul>
         </div>
       </div>
