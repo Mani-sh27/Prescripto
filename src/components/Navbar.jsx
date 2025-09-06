@@ -18,7 +18,6 @@ const Navbar = () => {
         <ul className=' md:flex hidden  me-6 md:gap-16 text-center '> 
           <NavLink className={({ isActive })=>`pb-1 ${isActive ? 'border border-b-2 ' }`} to='/'>
             <li>Home</li>
-            
           </NavLink> 
           <NavLink to='/doctors'>
             <li>ALL DOCTOR</li>
