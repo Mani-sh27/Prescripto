@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='lg:flex justify-between min-w-[540px]  mx-28  bg-[#5f6fff]   mt-6 rounded-lg'>
       <div>
-        <h1 className='font-semibold lg:flex text-2xl  sm:flex text-5xl text-white relative top-40 left-16 '>
+        <h1 className='font-semibold lg:flex   sm:flex text-5xl text-white relative top-40 left-16 '>
           Book Appointment <br />with Trusted Doctors
         </h1>
 
