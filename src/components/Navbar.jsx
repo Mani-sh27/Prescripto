@@ -10,7 +10,9 @@ const Navbar = () => {
         </div>
         <div>
           <ul>
-            <NavLink></NavLink>
+            <NavLink>
+              
+            </NavLink>
           </ul>
         </div>
       </div>
