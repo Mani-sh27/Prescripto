@@ -1,9 +1,8 @@
+import React from 'react'
+
 const Footer = () => {
   return (
-    
-    <div className='flex bg-blue-400'>
-        <h2></h2>
-    </div>
+    <div>Footer</div>
   )
 }
 
