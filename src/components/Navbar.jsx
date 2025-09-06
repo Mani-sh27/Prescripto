@@ -1,5 +1,5 @@
 import React from 'react'
-import second from 'first'
+imp
 const Navbar = () => {
   return (
     <header>
