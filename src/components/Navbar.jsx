@@ -15,7 +15,7 @@ const Navbar = () => {
         <img src={assets.logo} className='lg:w-32 sm:flex w-52 mx-auto sm:mx-0' />
 
         {/* Menu */}
-        <ul className=' md:flex hidden  me-6 md:gap-16 text-center '>
+        <ul className=' md:flex hidden  me-6 md:  gap-16 text-center '>
           <NavLink to='/'>
             <li>Home</li>
             <hr  />
