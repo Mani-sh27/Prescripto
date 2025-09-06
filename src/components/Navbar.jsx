@@ -32,7 +32,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink to='/contact'>
             <li>CONTACT</li>
-            <hr className='border-none h-0.5 bg-primary w-3/5 m-auto hidden sm:block' />
+            <hr className='border-none h-0.5 bg-primary  m-auto hidden sm:block' />
           </NavLink>
         </ul>
 
