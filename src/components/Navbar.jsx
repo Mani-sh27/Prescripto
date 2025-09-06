@@ -5,7 +5,7 @@ const Navbar = () => {
     <header>
       <div className='flex'>
         <div>
-            im
+            <img src="" alt="" />
         </div>
       </div>
 
