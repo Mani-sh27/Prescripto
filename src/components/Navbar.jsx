@@ -27,7 +27,6 @@ const Navbar = () => {
           </NavLink>
           <NavLink className={({isActive})=> `pb-1${isActive ? 'border border-b-2' :''}`} to='/contact'>
             <li>CONTACT</li>
-        
           </NavLink>
         </ul>
 
