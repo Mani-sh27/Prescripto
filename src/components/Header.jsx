@@ -4,7 +4,7 @@ import { assets } from '../assets/assets_frontend/assets'
 const Header = () => {
   return (
     <div className='flex justify-between lg:w-7xl bg-[#5f6fff]  mt-6 rounded-lg 
-                    flex-col md:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-28 h-auto md:h-[480px] p-4'>
+                    flex-col md:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-28 h-auto md:h-[490px] p-4'>
       <div className='flex-1 text-center md:text-left'>
         <h1 className='text-5xl font-semibold text-white relative top-40 left-16 md:text-5xl 
                        text-2xl sm:text-3xl md:text-5xl top-10 md:top-40 left-0 md:left-16'>
