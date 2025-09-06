@@ -37,7 +37,7 @@ const Navbar = () => {
         {/* Profile or Button */}
         {
           token ? (
-            <div className='flex lg:relative flex  gap-2 sm:flex relative top-5 left-[450px]'>
+            <div className='flex lg:relative  gap-2 sm:flex relative top-5 left-[450px]'>
               <img className='w-9 rounded-full ' src={assets.profile_pic} alt="" />
               <img className='w-4 cursor-pointer ' src={assets.dropdown_icon} alt="" />
               <div className='hidden'>
