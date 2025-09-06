@@ -7,7 +7,7 @@ const Header = () => {
                     flex-col md:flex-row mx-4 sm:mx-8 md:mx-16 lg:mx-28  md:h-[500px] '>
       <div className='flex-1 text-center md:text-left'>
         <h1 className=' font-semibold text-white relative top-40 left-16 
-                         md:text-5xl top-10  '>
+                          '>
           Book Appointment <br />with Trusted Doctors
         </h1>
 
