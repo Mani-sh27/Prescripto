@@ -16,7 +16,7 @@ const Navbar = () => {
             </NavLink>
 
             <NavLink className={({isActive})=>`pb-1 ${isActive ? 'border-none border-b-2' : ''}`} to='/doctors'>
-              <li className=''>ALL DOCTORS</li>
+              <li className='font-semibold'>ALL DOCTORS</li>
             </NavLink>
             <NavLink to='/about'>
               <li className=''>ABOUT</li>
