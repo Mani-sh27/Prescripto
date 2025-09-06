@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div>
           <ul>
-            <NavLink className={({isActive})=>`pb-1 ${isActive ? 'border border-b-': '' }`} to='/'>
+            <NavLink className={({isActive})=>`pb-1 ${isActive ? 'border border-b-2': '' }`} to='/'>
               <li className=''>HOME</li>
             </NavLink>
             <NavLink to='/doctors'>
