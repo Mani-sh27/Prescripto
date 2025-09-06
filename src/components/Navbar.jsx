@@ -10,8 +10,8 @@ const Navbar = () => {
         </div>
         <div>
           <ul>
-            <NavLink>
-              
+            <NavLink to>
+
             </NavLink>
           </ul>
         </div>
