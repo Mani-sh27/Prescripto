@@ -15,7 +15,7 @@ const Header = () => {
             src={assets.group_profiles}
             alt=''
           />
-          <p className='text-white flex-nowrap text-sm sm:text-base ms-0 md:ms-44 text-center '>
+          <p className='text-white sm: flex-nowrap text-sm sm:text-base ms-0 md:ms-44 text-center '>
             Simply browse through our extensive list of trusted doctors. <br />
             scheduled your appointment hassle-free
           </p>
