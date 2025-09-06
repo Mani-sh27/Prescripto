@@ -1,5 +1,5 @@
 import React from 'react'
-import moduleName from '../assets/assets_frontend';
+import moduleName from '../assets/assets_frontend/assets';
 const Navbar = () => {
   return (
     <header>
