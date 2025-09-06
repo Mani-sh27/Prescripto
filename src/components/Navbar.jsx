@@ -11,7 +11,7 @@ const Navbar = () => {
         <div>
           <ul>
             <NavLink to='/'>
-
+              
             </NavLink>
           </ul>
         </div>
