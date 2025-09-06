@@ -38,7 +38,7 @@ const Navbar = () => {
         {
           token ? (
             <div className='flex items-center gap-2  '>
-              <img className='w-9 rounded-full sm:flex relative top-5' src={assets.profile_pic} alt="" />
+              <img className='w-9 rounded-full ' src={assets.profile_pic} alt="" />
               <img className='w-4 cursor-pointer ' src={assets.dropdown_icon} alt="" />
               <div className='hidden'>
                 <p onClick={() => navigate('my-profile')}></p>
