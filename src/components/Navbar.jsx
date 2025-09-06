@@ -9,13 +9,13 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className='flex justify-around m-4 flex-col sm:flex-row  sm:justify-between gap-4 sm:gap-0'>
+      <div className='flex justify-around m-4 flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-0'>
 
         {/* Logo */}
         <img src={assets.logo} className='w-32 sm:w-40 mx-auto sm:mx-0' />
 
         {/* Menu */}
-        <ul className='me-6 hover:underline md:gap-16 text-center sm:flex hidden'>
+        <ul className='  me-6 hover:underline md:gap-16 text-center sm:flex hidden'>
           <NavLink to='/'>
             <li>Home</li>
             <hr className='border-none h-0.5 bg-primary  m-auto  sm:block' />
