@@ -11,7 +11,7 @@ const TopDoctors = () => {
   return (
     <div>
       <h1 className='text-4xl mt-20  text-center font-semibold'>Top Doctors</h1>
-      <p className='text-center mt-4'>Simple Browse through our extensive list of trusted doctors</p>
+      <p className='text-center mt-4'>Simple Browse  through our extensive list of trusted doctors</p>
       <div className='lg:grid grid-cols-auto '>
         {
           doctors.slice(0, 10).map((item, index) => (
