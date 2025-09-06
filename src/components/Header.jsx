@@ -22,7 +22,7 @@ const Header = () => {
             scheduled your appointment hassle-free
           </p>
           <a
-            className='relative -top-24 left-24 pt-2 ps-6 -pt-4 rounded-full bg-white w-56 
+            className='relative - left-24 pt-2 ps-6 -pt-4 rounded-full bg-white w-56 
                        transition-all duration-300 hover:-translate-y-2 
                        top-0 left-0 md:-top-24 md:left-24 text-center'
             href=''
