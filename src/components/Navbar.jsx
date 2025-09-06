@@ -18,7 +18,7 @@ const Navbar = () => {
         <ul className=' md:flex hidden  me-6 hover:underline md:gap-16 text-center '>
           <NavLink to='/'>
             <li>Home</li>
-            <hr className='border-none h-0.5 bg-primary  m-auto  sm:block' />
+            <hr className='border-none h-0.5 bg-primary  ' />
           </NavLink> 
           <NavLink to='/doctors'>
             <li>ALL DOCTOR</li>
