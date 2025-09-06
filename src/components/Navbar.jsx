@@ -55,7 +55,7 @@ const Navbar = () => {
         }
       </div>
 
-      <hr className=' sm:flex mx-' />
+      <hr className=' sm:flex mx-56' />
     </header>
   )
 }
