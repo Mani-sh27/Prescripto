@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <header>
-      <div className='flex'>
+      <div className='flex jus'>
         <div>
             <img src={assets.logo} alt="" />
         </div>
