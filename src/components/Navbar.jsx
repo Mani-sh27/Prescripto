@@ -16,12 +16,12 @@ const Navbar = () => {
         <img src={assets.logo} className='w-32 sm:w-40 mx-auto sm:mx-0' />
 
         {/* Menu */}
-        <ul className='me-6 hover:underline 
+        <ul className=' flex me-6 hover:underline 
                           sm:gap-16 text-center sm:text-left'>
           <NavLink to='/'>
             <li>Home</li>
             <hr className='border-none h-0.5 bg-primary  m-auto  sm:block' />
-          </NavLink>
+          </NavLink> 
           <NavLink to='/doctors'>
             <li>ALL DOCTOR</li>
             <hr className='border-none h-0.5 bg-primary  m-auto hidden sm:block' />
