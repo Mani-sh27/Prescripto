@@ -22,7 +22,7 @@ const Navbar = () => {
               <li className='font-semibold'>ABOUT</li>
             </NavLink>
             <NavLink to='/contact'>
-              <li className=''>CONTACT</li>
+              <li className='font-semibold'>CONTACT</li>
             </NavLink>
           </ul>
         </div>
