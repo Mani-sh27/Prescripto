@@ -19,7 +19,7 @@ const Navbar = () => {
             <NavLink to='/about'>
               <li className=''></li>
             </NavLink>
-            <NavLink to='/'>
+            <NavLink to='/cotact'>
               <li className=''></li>
             </NavLink>
           </ul>
