@@ -9,13 +9,7 @@ const Navbar = () => {
 
   return (
     
-        <ul className=' md:fl<header>
-      <div className='flex justify-around m-4 flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-0'>
-
-        {/* Logo */}
-        <img src={assets.logo} className='lg:w-32 sm:flex w-52 mx-auto sm:mx-0' />
-
-        {/* Menu */}ex hidden  me-6 md:gap-16 text-center '> 
+         me-6 md:gap-16 text-center '> 
           <NavLink className={({ isActive })=>`pb-1${isActive ? 'border-none  border-b-2' : '' }`} to='/'>
             <li>Home</li>
           </NavLink> 
