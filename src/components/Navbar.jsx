@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <header>
       <div className='flex justify-around m-4 
-flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-0'>
+                      flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-0'>
 
         {/* Logo */}
         <img src={assets.logo} className='w-32 sm:w-40 mx-auto sm:mx-0' />
