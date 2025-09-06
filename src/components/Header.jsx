@@ -4,7 +4,7 @@ import { assets } from '../assets/assets_frontend/assets'
 const Header = () => {
   return (
     <div className='lg:flex justify-between min-w-7xl  mx-36  bg-[#5f6fff]   mt-6 rounded-lg'>
-      <div '>
+      <div >
         <h1 className='font-semibold sm:flex text-2xl text-white relative top-40 left-16 '>
           Book Appointment <br />with Trusted Doctors
         </h1>
