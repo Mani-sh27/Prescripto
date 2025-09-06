@@ -41,7 +41,7 @@ const Navbar = () => {
               <img className='w-9 rounded-full' src={assets.profile_pic} alt="" />
               <img className='w-4 cursor-pointer' src={assets.dropdown_icon} alt="" />
               <div className='hidden sm:block'>
-                <p onClick={() => navigate('my-profile')}>niuhji</p>
+                <p onClick={() => navigate('my-profile')}></p>
                 <p onClick={() => navigate('my-appointments')}>njknkhuihi</p>
                 <p onClick={() => navigate('my-appointments')}>gygu</p>
               </div>
