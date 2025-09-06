@@ -11,7 +11,7 @@ const Navbar = () => {
         <div>
           <ul className='flex mt-4 gap-10 -ms-32'>
             <NavLink className={({isActive})=>`pb-1 ${isActive ? 'border-none border-b-2': '' }`} to='/'>
-              <li className=''>HOME</li>
+              <li className='font'>HOME</li>
               
             </NavLink>
 
