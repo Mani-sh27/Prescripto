@@ -26,7 +26,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink to='/about'>
             <li>ABOUT</li>
-            <hr className='border-none h-0.5 bg-primary  m-auto hidden sm:block' />
+            <hr className='border-none h-0.5 bg-primary   sm:block' />
           </NavLink>
           <NavLink to='/contact'>
             <li>CONTACT</li>
