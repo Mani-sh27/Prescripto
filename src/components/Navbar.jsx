@@ -23,7 +23,7 @@ const Navbar = () => {
           </NavLink> 
           <NavLink to='/doctors'>
             <li>ALL DOCTOR</li>
-            <hr className='border-none h-0.5 bg-primary  m' />
+            <hr className='border-none h-0.5 bg-primary  m-auto hidden ' />
           </NavLink>
           <NavLink to='/about'>
             <li>ABOUT</li>
