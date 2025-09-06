@@ -20,7 +20,7 @@ const Navbar = () => {
                           sm:gap-16 text-center sm:text-left'>
           <NavLink to='/'>
             <li>Home</li>
-            <hr className='border-none h-0.5 bg-primary w-3/5 m-auto hidden sm:block' />
+            <hr className='border-none h-0.5 bg-primary w-3/5 m-auto  sm:block' />
           </NavLink>
           <NavLink to='/doctors'>
             <li>ALL DOCTOR</li>
