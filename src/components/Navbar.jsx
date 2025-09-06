@@ -20,7 +20,7 @@ const Navbar = () => {
             <li>Home</li>
             <hr  />
           </NavLink> 
-          <NavLink className={({isActive})=>pb-1 ${Acrive}} to='/doctors'>
+          <NavLink className={({isActive})=>pb-1 } to='/doctors'>
             <li>ALL DOCTOR</li>
             <hr  />
           </NavLink>
