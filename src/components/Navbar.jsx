@@ -12,7 +12,7 @@ const Navbar = () => {
           <ul className='flex gap-8'>
             <NavLink className={({isActive})=>`pb-1 ${isActive ? 'border-none border-b-2': '' }`} to='/'>
               <li className=''>HOME</li>
-              <hr />
+              
             </NavLink>
 
             <NavLink className={({isActive})=>`pb-1${isActive ? 'border-none border-b-2' : ''}`} to='/doctors'>
