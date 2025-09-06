@@ -41,7 +41,7 @@ const Navbar = () => {
               <img className='w-9 rounded-full' src={assets.profile_pic} alt="" />
               <img className='w-4 cursor-pointer' src={assets.dropdown_icon} alt="" />
               <div className='hidden'>
-                <p onClick={() => navigate('my-profile')}></p>
+                <p onClick={() => navigate('my-profile')}>fdjnfj</p>
                 <p onClick={() => navigate('my-appointments')}></p>
                 <p onClick={() => navigate('my-appointments')}></p>
               </div>
