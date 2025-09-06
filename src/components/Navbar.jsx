@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className='flex justify-around m-4 flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-0'>
 
         {/* Logo */}
-        <img src={assets.logo} className='lg:w-32 sm:flex w-4 mx-auto sm:mx-0' />
+        <img src={assets.logo} className='lg:w-32 sm:flex w-44 mx-auto sm:mx-0' />
 
         {/* Menu */}
         <ul className='  me-6 hover:underline md:gap-16 text-center sm:flex hidden'>
