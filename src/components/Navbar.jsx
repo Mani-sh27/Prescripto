@@ -12,7 +12,6 @@ const Navbar = () => {
           <ul className='flex mt-4 gap-10 -ms-32'>
             <NavLink className={({isActive})=>`pb-1 ${isActive ? ' border-b-2': '' }`} to='/'>
               <li className='font-semibold'>HOME</li>
-              
             </NavLink>
 
             <NavLink className={({isActive})=>`pb-1 ${isActive ? ' border-b-2' : ''}`} to='/doctors'>
