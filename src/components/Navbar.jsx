@@ -1,5 +1,5 @@
 import React from 'react'
-import Rea
+import React from 'react'
 const Navbar = () => {
   return (
     <header>
