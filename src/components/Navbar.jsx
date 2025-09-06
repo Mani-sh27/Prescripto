@@ -13,7 +13,7 @@ const Navbar = () => {
                       flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-0'>
 
         {/* Logo */}
-        <img src={assets.logo} className='w-32 sm:w-40 mx-auto sm:mx-0' />
+        <img src={assets.logo} className='w-32 sm:w-40 mx-auto sm:mx-0/>
 
         {/* Menu */}
         <ul className='items-center me-6 hover:underline 
