@@ -9,7 +9,7 @@ const Navbar = () => {
             <img src={assets.logo} alt="" />
         </div>
         <div>
-          <ul>
+          <ul className='flex'>
             <NavLink className={({isActive})=>`pb-1 ${isActive ? 'border border-b-2': '' }`} to='/'>
               <li className=''>HOME</li>
             </NavLink>
