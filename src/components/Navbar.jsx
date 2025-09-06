@@ -16,7 +16,7 @@ const Navbar = () => {
 
         {/* Menu */}
         <ul className=' md:flex hidden  me-6 md:gap-16 text-center '>
-          <NavLink className={({isActive})} to='/'>
+          <NavLink className={({isActive})-} to='/'>
             <li>Home</li>
             <hr  />
           </NavLink> 
