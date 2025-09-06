@@ -16,7 +16,7 @@ const Navbar = () => {
         <img src={assets.logo} className='w-32 sm:w-40 mx-auto sm:mx-0' />
 
         {/* Menu */}
-        <ul className='me-6 hover:underline 
+        <ul className=' fleme-6 hover:underline 
                           sm:gap-16 text-center sm:text-left'>
           <NavLink to='/'>
             <li>Home</li>
