@@ -12,7 +12,7 @@ const TopDoctors = () => {
     <div>
       <h1 className='text-4xl mt-20  text-center font-semibold'>Top Doctors</h1>
       <p className='text-center mt-4'>Simple Browse  through our extensive list of trusted doctors</p>
-      <div className='lg:grid grid-cols-5 sm:flex grid grid-cols-2 grid-rows-4 '>
+      <div className='lg:grid cols-5 sm:flex grid grid-cols-2 grid-rows-4 '>
         {
           doctors.slice(0, 10).map((item, index) => (
             <div className='p-6'>
