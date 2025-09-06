@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <header>
-      <div className='flex justify-between'>
+      <div className='flex justify-between mx-auto'>
         <div>
             <img src={assets.logo} alt="" />
         </div>
