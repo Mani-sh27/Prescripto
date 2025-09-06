@@ -10,24 +10,7 @@ const TopDoctors = () => {
   const {doctors} = useContext(AppContext)
   return (
     <div>
-      <h1 className='text-4xl mt-20  text-center font-semibold'>Top Doctors</h1>
-      <p className='text-center mt-4'>Simple Browse  through our extensive list of trusted doctors</p>
-      <div className='grid grid-cols-2  min-w-[850px] sm:grid-cols-5 grid-rows-2 mx-20'>
-        {
-          doctors.slice(0, 10).map((item, index) => (
-            <div className=''>
-              <div className='sm:flex   mt-10 -gap-4  mx-auto cursor-pointer border-blue-100 border-2 rounded-2xl hover:-translate-y-2 duration-500 transition-all'>
-                <img className='bg-blue-50 w-7xl rounded-t-2xl ' src={item.image} />
-                <div>
-               <p className='w-2 h-2 relative top-6 left-4 bg-green-500 rounded-full' ></p> <p className='ms-8 mt-2 text-green-600'>Available</p>
-                </div>
-                <div>
-                  <p className='my-2 mx-5 font-semibold text-md'>{item.name}</p>
-                  <p className='ms-5 -mt-2 text-sm mb-5'>{item.speciality}</p>
-                </div>
-
-              </div>
-            </div>
+      
 
           ))
         }
