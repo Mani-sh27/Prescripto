@@ -12,7 +12,7 @@ const Header = () => {
 
         <div className='flex flex-col gap-28 mt-4 items-center md:items-start'>
           <img
-            className='relative top-40 w-24 ms-16 mt-5 sm:flex '
+            className='relative top-40 w-24 ms-16 mt-5 sm:flex top'
             src={assets.group_profiles}
             alt=''
           />
