@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Header = () => {
   return (
-    <div className='lg:flex justify-between min-w-[540px]  mx-34  bg-[#5f6fff]   mt-6 rounded-lg'>
+    <div className='lg:flex justify-between min-w-[540px]  mx-3  bg-[#5f6fff]   mt-6 rounded-lg'>
       <div>
         <h1 className='font-semibold sm:flex text-7xl text-white relative top-40 left-16 '>
           Book Appointment <br />with Trusted Doctors
