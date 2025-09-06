@@ -3,7 +3,7 @@ import   { assets } from '../assets/assets_frontend/assets';
 const Navbar = () => {
   return (
     <header>
-      <div className='flex '>
+      <div className='flex'>
         <div>
             <img src={assets.logo} alt="" />
         </div>
