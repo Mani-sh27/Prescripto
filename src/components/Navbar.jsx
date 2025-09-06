@@ -43,7 +43,7 @@ const Navbar = () => {
               <div className='hidden sm:block'>
                 <p onClick={() => navigate('my-profile')}></p>
                 <p onClick={() => navigate('my-appointments')}></p>
-                <p onClick={() => navigate('my-appointments')}>gygu</p>
+                <p onClick={() => navigate('my-appointments')}></p>
               </div>
             </div>
           ) : (
