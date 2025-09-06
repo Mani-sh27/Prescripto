@@ -25,7 +25,7 @@ const Navbar = () => {
           <NavLink className={({isActive})=>`pb-1${isActive ? 'border-none border-b-2':''}`} to='/about'>
             <li>ABOUT</li>
           </NavLink>
-          <NavLink className={({isActive})} to='/contact'>
+          <NavLink className={({isActive})=> ``} to='/contact'>
             <li>CONTACT</li>
             <hr  />
           </NavLink>
