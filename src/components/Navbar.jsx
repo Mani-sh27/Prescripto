@@ -21,7 +21,7 @@ const Navbar = () => {
             <hr  />
           </NavLink> 
           <NavLink  className={({ isActive }) => 
-    `pb ${isActive ? 'border-b-2 border-primary' : ''}`
+    ` ${isActive ? 'border-b-2 border-primary' : ''}`
   } to='/doctors'>
             <li>ALL DOCTOR</li>
             <hr  />
