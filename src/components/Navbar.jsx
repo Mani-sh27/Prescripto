@@ -18,7 +18,7 @@ const Navbar = () => {
               <li className='font-semibold text-2xl'>ALL DOCTORS</li>
             </NavLink>
             <NavLink className={({isActive})=>`pb-1${isActive ? ' border-b-2' : ''}`} to='/about'>
-              <li className='font-semibold text-2xl'>ABOUT</li>
+              <li className='font-semibold text-sm'>ABOUT</li>
             </NavLink>
             <NavLink className={({isActive})=>`pb-1${isActive ? ' border-b-2' : ''}`} to='/contact'>
               <li className='font-semibold text-sm'>CONTACT</li>
