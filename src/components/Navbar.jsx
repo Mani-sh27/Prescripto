@@ -12,8 +12,9 @@ const Navbar = () => {
           <ul className='flex'>
             <NavLink className={({isActive})=>`pb-1 ${isActive ? 'border-none border-b-2': '' }`} to='/'>
               <li className=''>HOME</li>
+              <hr />
             </NavLink>
-            
+
             <NavLink to='/doctors'>
               <li className=''>ALL DOCTORS</li>
             </NavLink>
