@@ -5,7 +5,7 @@ const Navbar = () => {
     <header>
       <div className='flex'>
         <div>
-            <img src={assets} alt="" />
+            <img src={AsyncDisposableStack.} alt="" />
         </div>
       </div>
 
