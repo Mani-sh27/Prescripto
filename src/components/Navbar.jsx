@@ -42,7 +42,7 @@ const Navbar = () => {
               <img className='w-4 cursor-pointer' src={assets.dropdown_icon} alt="" />
               <div className='hidden sm:block'>
                 <p onClick={() => navigate('my-profile')}></p>
-                <p onClick={() => navigate('my-appointments')}>njknkhuihi</p>
+                <p onClick={() => navigate('my-appointments')}></p>
                 <p onClick={() => navigate('my-appointments')}>gygu</p>
               </div>
             </div>
