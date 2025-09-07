@@ -36,7 +36,7 @@ const Navbar = () => {
                 token ? <div className='w-9  flex -top-3 relative'>
                   <img src={assets.profile_pic} className='rounded-full me-2 ' />
                   <img src={assets.dropdown_icon}  />
-                  div
+                  <div></div>
                 </div> : <div className='hidden sm:block'>
                   <button type='button' className='border cursor-pointer mt-7 px-5 bg-blue-500 text-white py-2 rounded-full ms-10'>Create account</button>
                 </div>
