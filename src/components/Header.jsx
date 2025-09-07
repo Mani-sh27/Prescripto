@@ -8,7 +8,7 @@ const Header = () => {
           With Trusted Doctors</h2>
       </section>
       <section>
-
+        
       </section>
     </div>
   )
