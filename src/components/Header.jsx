@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className=' min-w-[900px] flex-row relative -left-12 h-[800px] sm:flex bg-[#5f6fff] mx-42 mt-4 rounded-xl'>
       <section>
-        <p className='text-5xl left-40 top-18 font-  text-white  sm:text-white relative sm:left-20 sm:font-semibold sm:top-30 '>Book Appointment <br />
+        <p className='text-5xl left-40 top-18 font-medium  text-white  sm:text-white relative sm:left-20 sm:font-semibold sm:top-30 '>Book Appointment <br />
           With Trusted Doctors</p>
         <div className='flex  relative top-38 text-white left-20'>
           <img src={assets.group_profiles}  />
