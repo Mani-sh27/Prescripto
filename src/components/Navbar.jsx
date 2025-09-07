@@ -47,7 +47,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div> : <div className='hidden sm:block'>
-                  <button type='button' className='border  cursor-pointer -mt- px-5 bg-blue-500 text-white py-2 rounded-full ms-10'>Create account</button>
+                  <button type='button' className='border  cursor-pointer -mt-3 px-5 bg-blue-500 text-white py-2 rounded-full ms-10'>Create account</button>
                 </div>
               }
 
