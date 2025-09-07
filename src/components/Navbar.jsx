@@ -41,7 +41,7 @@ const Navbar = () => {
                     <div className='bg-gray-100 px-8 py-4 leading-7 z-10'>
                       <ul className='-ms-4'>
                         <p onClick={()=>navigate('/my-Profile')} className='cursor-pointer hover:font-bold'>My Profile</p>
-                        <p onClick={()=>navigate('/my-Appointments')} className='cursor-pointer hover:font-semibold'>My-Appointments</p>
+                        <p onClick={()=>navigate('/my-Appointments')} className='cursor-pointer hover:font-semiboldbold'>My-Appointments</p>
                         <p onClick={()=>setToken(false)} className='cursor-pointer hover:font-semibold'>LogOut</p>
                       </ul>
 
