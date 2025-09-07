@@ -7,7 +7,7 @@ const Header = () => {
         <h2></h2>
       </section>
       <section>
-
+        
       </section>
     </div>
   )
