@@ -35,6 +35,7 @@ const Navbar = () => {
     
       
       </div>
+          <hr  />
 
     </header>
   )
