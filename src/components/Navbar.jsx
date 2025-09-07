@@ -35,7 +35,7 @@ const Navbar = () => {
     
       
       </div>
-      <hr  />
+      <hr className='mx-auto' />
 
     </header>
   )
