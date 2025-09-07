@@ -16,8 +16,7 @@ const Navbar = () => {
         </button>
         <div  >
           <ul className='mt-10  gap-10  sm:flex hidden'>
-            <div>
-                 <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/'>
+            <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/'>
               <li className='font-semibold text-sm'>HOME</li>
             </NavLink>
 
@@ -33,8 +32,6 @@ const Navbar = () => {
             <NavLink to='/admin'>
               <li className='border px-3 py-1 rounded-full -mt-1 font-semibold text-xs transition-all duration-700 hover:bg-black hover:text-white '>Admin Panel</li>
             </NavLink>
-            </div>
-         
             <div className='flex  group'>
               {
                 token ? <div className='w-9  flex -top-3  relative'>
