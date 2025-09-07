@@ -32,9 +32,7 @@ const Navbar = () => {
             <NavLink to='/admin'>
               <li className='border px-3 py-1 rounded-full -mt-1 font-semibold text-xs transition-all duration-700 hover:bg-black hover:text-white '>Admin Panel</li>
             </NavLink>
-   
-          </ul>
-                   <div className='flex  group'>
+            <div className='flex  group'>
               {
                 token ? <div className='w-9  flex -top-3  relative'>
                   <img src={assets.profile_pic} className='rounded-full me-2 ' />
@@ -54,6 +52,7 @@ const Navbar = () => {
               }
 
             </div>
+          </ul>
 
         </div>
 
