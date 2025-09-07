@@ -39,7 +39,7 @@ const Navbar = () => {
                   <div className='absolute top-0 right-0 pt-14 '>
                     <div className='bg-gray-100'>
                       <p>My Profile</p>
-                      <p>My-Appointment</p>
+                      <p>My-Appointments</p>
                       <p>LogOut</p>
                     </div>
                   </div>
