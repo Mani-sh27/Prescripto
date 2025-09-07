@@ -39,7 +39,7 @@ const Navbar = () => {
                   <div>
                     <div>
                       <p>My Profile</p>
-                      <p>My-Appoint</p>
+                      <p>My-Appointments</p>
                       <p></p>
                     </div>
                   </div>
