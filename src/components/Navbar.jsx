@@ -14,7 +14,7 @@ const Navbar = () => {
         <button className=' flex relative left-60 top-12 text-3xl sm:hidden' onClick={() => setIsOpen(!open)}>
           {open ? '✖' : '☰'}
         </button>
-        <div className='ms-' >
+        <div className='ms-32' >
           <ul className='mt-10  gap-10 -ms-24 sm:flex hidden'>
             <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/'>
               <li className='font-semibold text-sm'>HOME</li>
