@@ -33,7 +33,7 @@ const Navbar = () => {
           <button type='button' className='border cursor-pointer mt-7 px-5 bg-blue-500 text-white py-2 rounded-full ms-10'>Create account</button>
         </div>
       </div>
-      <hr className=' mx-20 w-[560px] pt-8' />
+      <hr className=' mx-0 w-[560px] pt-8' />
 
     </header>
   )
