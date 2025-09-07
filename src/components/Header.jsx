@@ -7,7 +7,7 @@ const Header = () => {
         <p className='text-5xl left-40 top-18 font-medium leading-14  text-white  sm:text-white relative sm:left-20 sm:font-semibold sm:top-30 '>Book Appointment <br />
           With Trusted Doctors</p>
         <div className='sm:flex relative top-38 text-white left-20'>
-          <img src={assets.group_profiles} className='sm:flex relative -top-9 left-66 w-' />
+          <img src={assets.group_profiles} className='sm:flex relative -top-9 left-66 w-20' />
           <p className='ms-4'>Simply browse through our extensive list of trusted doctors,<br />
             schedule your appointment hassle-free.</p>
         </div>
