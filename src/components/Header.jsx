@@ -7,7 +7,9 @@ const Header = () => {
         <p>Book Appointment <br />
           With Trusted Doctors</p>
           <div>
-
+             <img src={assets.group_profiles} alt="" />
+        <p>Simply browse through our extensive list of trusted doctors,
+          schedule your appointment hassle-free.</p>
           </div>
        
       </section>
