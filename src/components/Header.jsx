@@ -11,7 +11,7 @@ const Header = () => {
           <p className='ms-4'>Simply browse through our extensive list of trusted doctors, <br />
             schedule your appointment hassle-free.</p>
         </div>
-        <div>
+        <div> 
         <button className='bg-[white] px-3 py-2 rounded-full' type='button'>Book appointment</button>
         <img src={assets.arrow_icon} alt="" />
 
