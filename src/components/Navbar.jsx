@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { assets } from '../assets/assets_frontend/assets';
-import { Navigate, NavLink } from 'react-router-dom';
+import { Navigate, NavLink, useNavigate } from 'react-router-dom';
 const Navbar = () => {
   const [open, setIsOpen] = useState(false)
   const [token, setToken] = useState(true)
-  const navigate =use
+  const navigate =useNavigate()
   return (
     <header>
       <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex min-w-[890px]    '>
