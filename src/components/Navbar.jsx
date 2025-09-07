@@ -17,7 +17,22 @@ const Navbar = () => {
         <div  >
           <ul className='mt-10  gap-10  sm:flex hidden'>
             <div>
+                 <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/'>
+              <li className='font-semibold text-sm'>HOME</li>
+            </NavLink>
 
+            <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/doctors'>
+              <li className='font-semibold text-sm'>ALL DOCTORS</li>
+            </NavLink>
+            <NavLink className={({ isActive }) => `pb-1${isActive ? ' border-b-2' : ''}`} to='/about'>
+              <li className='font-semibold text-sm'>ABOUT</li>
+            </NavLink>
+            <NavLink className={({ isActive }) => `pb-1${isActive ? ' border-b-2' : ''}`} to='/contact'>
+              <li className='font-semibold text-sm'>CONTACT</li>
+            </NavLink>
+            <NavLink to='/admin'>
+              <li className='border px-3 py-1 rounded-full -mt-1 font-semibold text-xs transition-all duration-700 hover:bg-black hover:text-white '>Admin Panel</li>
+            </NavLink>
             </div>
          
             <div className='flex  group'>
