@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets';
 import { Navigate, NavLink } from 'react-router-dom';
 const Navbar = () => {
   const [open, setIsOpen] = useState(false)
-  const [token, setToken] = useState(true )
+  const [token, setToken] = useState(true)
   return (
     <header>
       <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex min-w-[890px]    '>
@@ -35,15 +35,15 @@ const Navbar = () => {
               {
                 token ? <div className='w-9  flex -top-3 relative'>
                   <img src={assets.profile_pic} className='rounded-full me-2 ' />
-                  <img src={assets.dropdown_icon}  />
+                  <img src={assets.dropdown_icon} />
                   <div className='absolute top-0 right-0 pt-14  w-[200px] '>
                     <div className='bg-gray-100 px-8 py-6 leading-7 '>
                       <ul>
-                           <p className=''>My Profile</p>
-                      <p className=''>My-Appointments</p>
-                      <p className=''>LogOut</p>
+                        <p className=''>My Profile</p>
+                        <p className=''>My-Appointments</p>
+                        <p className=''>LogOut</p>
                       </ul>
-                   
+
                     </div>
                   </div>
                 </div> : <div className='hidden sm:block'>
