@@ -39,6 +39,7 @@ const Navbar = () => {
                   <div>
                     <div>
                       <p></p>
+                      <p></p>
                     </div>
                   </div>
                 </div> : <div className='hidden sm:block'>
