@@ -6,7 +6,7 @@ const Navbar = () => {
     <header>
       <div className='flex justify-between mx-42'>
         <div>
-            <img className='  sm:mt-9 text-2xl mx-auto sm:mt-6 min-w-45' src={assets.logo} alt="" />
+            <img className='  sm:flex mt-9 text-2xl mx-auto sm:mt-6 min-w-45' src={assets.logo} alt="" />
         </div>
         <div>
           <ul className='flex mt-10 gap-10 ms-28'>
