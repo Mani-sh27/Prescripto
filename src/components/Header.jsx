@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className='flex w-min-80 bg-[#5f6fff] mx-42 '>
       <section className=''>
-        <p className=''>Book Appointment <br />
+        <p className='tex'>Book Appointment <br />
           With Trusted Doctors</p>
         <div className='flex'>
           <img src={assets.group_profiles} alt="" />
