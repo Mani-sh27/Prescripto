@@ -19,8 +19,7 @@ const Header = () => {
 
       </section>
       <section>
-        <img src={assets.header_img} className=' flex-col flex sm
-         relative w-[500px]   ' />
+        <img src={assets.header_img} className=' flex-col flex sm: relative w-[500px]   ' />
       </section>
     </div>
   )
