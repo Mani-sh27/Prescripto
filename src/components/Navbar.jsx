@@ -29,7 +29,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button type='button'>Create account</button>
+          <button type='button' className=''>Create account</button>
         </div>
         <div>
 
