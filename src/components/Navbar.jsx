@@ -36,7 +36,7 @@ const Navbar = () => {
                 token ? <div>
                   <img src={assets.profile_pic} alt="" />
                   <img src={assets.dropdown_icon} alt="" />
-                </div> : <button onClick={()=>Navigate('')}>Create Account</button>
+                </div> : <button onClick={()=>Navigate('/')}>Create Account</button>
               }
 
             </div>
