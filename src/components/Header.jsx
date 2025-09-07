@@ -12,7 +12,7 @@ const Header = () => {
             schedule your appointment hassle-free.</p>
         </div>
         <div className='flex'> 
-        <button className='sm:bg-[white] px-  py-2 rounded-full' type='button'>Book appointment</button>
+        <button className='sm:bg-[white] px-5  py-2 rounded-full' type='button'>Book appointment</button>
         <img src={assets.arrow_icon} className='sm:relative' alt="" />
 
         </div>
