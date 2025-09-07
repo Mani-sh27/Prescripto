@@ -19,7 +19,7 @@ const Header = () => {
 
       </section>
       <section>
-        
+        <img src="" alt="" />
       </section>
     </div>
   )
