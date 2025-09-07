@@ -35,6 +35,7 @@ const Navbar = () => {
               {
                 token ? <div>
                   <img src={assets.profile_pic} alt="" />
+                  
                 </div> :
               }
 
