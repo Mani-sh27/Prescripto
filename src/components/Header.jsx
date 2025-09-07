@@ -11,9 +11,7 @@ const Header = () => {
           <p className='ms-4'>Simply browse through our extensive list of trusted doctors, <br />
             schedule your appointment hassle-free.</p>
         </div>
-        <button className='bg-[]while (condition) {
-          
-        }' type='button'>Book appointment</button>
+        <button className='bg-[]whi' type='button'>Book appointment</button>
 
       </section>
       <section>
