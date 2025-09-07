@@ -10,7 +10,7 @@ const Header = () => {
           <img src={assets.group_profiles} alt="" />
           <p className='ms-4'>Simply browse through our extensive list of trusted doctors, <br />
             schedule your appointment hassle-free.</p>
-            <button type='button'>Book </button>
+            <button type='button'>Book appointment</button>
         </div>
 
       </section>
