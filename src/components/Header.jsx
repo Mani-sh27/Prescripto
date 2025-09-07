@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 const Header = () => {
   return (
-    <div className='flex bg-[#5f6fff] ms-42 w-64'>
+    <div className='flex bg-[#5f6fff] ms-42 w-'>
       <section>
         <p>Book Appointment <br />
           With Trusted Doctors</p>
