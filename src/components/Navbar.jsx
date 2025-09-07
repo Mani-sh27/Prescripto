@@ -34,6 +34,26 @@ const Navbar = () => {
             </NavLink>
    
           </ul>
+                   <div className='flex  group'>
+              {
+                token ? <div className='w-9  flex -top-3  relative'>
+                  <img src={assets.profile_pic} className='rounded-full me-2 ' />
+                  <img className='text-xs' src={assets.dropdown_icon} />
+                  <div className='absolute top-0 right-0 pt-14  w-[200px] hidden group-hover:block'>
+                    <div className='bg-gray-100 px-8 py-4 leading-7 z-10'>
+                      <ul className='-ms-4'>
+                        <p onClick={()=>navigate('/my-Profile')} className='cursor-pointer hover:font-semibold'>My Profile</p>
+                        <p onClick={()=>navigate('/my-Appointments')} className='cursor-pointer hover:font-semibold'>My-Appointments</p>
+                        <p onClick={()=>setToken(false)} className='cursor-pointer hover:font-semibold'>LogOut</p>
+                      </ul>
+                    </div>
+                  </div>
+                </div> : <div className='hidden sm:block'>
+                  <button type='button' className='border  cursor-pointer -mt-3 px-5 bg-blue-500 text-white py-2 rounded-full ms-10'>Create account</button>
+                </div>
+              }
+
+            </div>
 
         </div>
 
