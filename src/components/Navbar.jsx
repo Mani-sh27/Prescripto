@@ -34,7 +34,9 @@ const Navbar = () => {
                 token ? <div>
                   <img src={assets.profile_pic} alt="" />
                   <img src={assets.dropdown_icon} alt="" />
-                </div> : <button></button>
+                </div> : <button className=' flex relative left-60 top-12 text-3xl sm:hidden' onClick={()=>setIsOpen(!open)}>
+        {open ? '✖': '☰'}
+        </button>
               }
 
             </div>
