@@ -41,7 +41,7 @@ const Navbar = () => {
                       <ul className='-ms-4'>
                         <p className='cursor-pointer'>My Profile</p>
                         <p className='cursor-pointer'>My-Appointments</p>
-                        <p className=''>LogOut</p>
+                        <p className='cursor-pointer'>LogOut</p>
                       </ul>
 
                     </div>
