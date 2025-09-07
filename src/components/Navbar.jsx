@@ -7,7 +7,7 @@ const Navbar = () => {
   const navigate =useNavigate()
   return (
     <header>
-      <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex mx-10 min-w-[890px]'>
+      <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex  min-w-[890px]'>
         <div>
           <img className=' mt-9 text-2xl  sm:mt-6 min-w-45' src={assets.logo} alt="" />
         </div>
