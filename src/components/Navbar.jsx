@@ -38,7 +38,7 @@ const Navbar = () => {
                   <img src={assets.dropdown_icon}  />
                   <div>
                     <div>
-                      <p>My </p>
+                      <p>My Pro</p>
                       <p></p>
                       <p></p>
                     </div>
