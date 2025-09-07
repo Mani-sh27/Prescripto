@@ -42,7 +42,7 @@ const Navbar = () => {
                       <ul className='-ms-4'>
                         <p onClick={()=>navigate('/my-Profile')} className='cursor-pointer hover:font-bold'>My Profile</p>
                         <p onClick={()=>navigate('/my-Appointments')} className='cursor-pointer hover:font-bold'>My-Appointments</p>
-                        <p onClick={()} className='cursor-pointer'>LogOut</p>
+                        <p onClick={()=>} className='cursor-pointer'>LogOut</p>
                       </ul>
 
                     </div>
