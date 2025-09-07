@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import   { assets } from '../assets/assets_frontend/assets';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
-  const [open,setOpen] = useState(false)
+  const [open,isOpen] = useState(false)
   return (
     <header>
       <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex min-w-[890px]    '>
