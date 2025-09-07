@@ -33,7 +33,9 @@ const Navbar = () => {
             </NavLink>
             <div className='flex'>
               {
-                token ? <div></div> :
+                token ? <div>
+                  
+                </div> :
               }
 
             </div>
