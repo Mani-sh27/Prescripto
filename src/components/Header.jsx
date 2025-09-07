@@ -19,7 +19,7 @@ const Header = () => {
 
       </section>
       <section>
-        <img src={assets.header_img} className='relative min-w-[55] ' />
+        <img src={assets.header_img} className='relative min-w-[550px] ' />
       </section>
     </div>
   )
