@@ -29,7 +29,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button type='button' className='border cursor-pointer mt-9 px-4 bg-blue-500 text-white '>Create account</button>
+          <button type='button' className='border cursor-pointer mt-9 px-4 bg-blue-500 text-white py-2'>Create account</button>
         </div>
         <div>
 
