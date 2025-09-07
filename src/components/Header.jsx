@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div>
         <button className='bg-[white] px-3 py-2 rounded-full' type='button'>Book appointment</button>
-        <img src=[assets.] alt="" />
+        <img src=[] alt="" />
 
         </div>
 
