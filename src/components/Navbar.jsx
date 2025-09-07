@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import   { assets } from '../assets/assets_frontend/assets';
-import { NavLink } from 'react-router-dom';
+import { Navigate, NavLink } from 'react-router-dom';
 const Navbar = () => {
   const [open,setIsOpen] = useState(false)
   const [token , setToken] = useState()
@@ -36,7 +36,7 @@ const Navbar = () => {
                 token ? <div>
                   <img src={assets.profile_pic} alt="" />
                   <img src={assets.dropdown_icon} alt="" />
-                </div> : <button onClick={()=>}>Create Account</button>
+                </div> : <button onClick={()=>Navigate()}>Create Account</button>
               }
 
             </div>
