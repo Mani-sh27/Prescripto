@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className='flex'>
               {
                 token ? <div>
-                  <img src={assets} alt="" />
+                  <img src={assets.profile_pic} alt="" />
                 </div> :
               }
 
