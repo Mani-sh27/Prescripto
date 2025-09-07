@@ -32,6 +32,7 @@ const Navbar = () => {
               <li className='border px-3 py-1 rounded-full -mt-1 font-semibold text-xs transition-all duration-700 hover:bg-black hover:text-white '>Admin Panel</li>
             </NavLink>
             <div className='flex'>
+              
 
             </div>
           </ul>
