@@ -9,7 +9,7 @@ const Navbar = () => {
             <img className='mt-6 w-45' src={assets.logo} alt="" />
         </div>
         <div>
-          <ul className='flex mt-7 gap-10 ms-28  '>
+          <ul className='flex mt- gap-10 ms-28  '>
             <NavLink className={({isActive})=>`pb-1 ${isActive ? ' border-b-2': '' }`} to='/'>
               <li className='font-semibold text-sm'>HOME</li>
             </NavLink>
