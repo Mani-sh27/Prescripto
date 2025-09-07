@@ -19,7 +19,7 @@ const Header = () => {
 
       </section>
       <section>
-        <img src={assets.header_img} className='w-20' />
+        <img src={assets.header_img} className='w-' />
       </section>
     </div>
   )
