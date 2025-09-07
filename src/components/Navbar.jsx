@@ -46,7 +46,7 @@ const Navbar = () => {
                       </ul>
                     </div>
                   </div>
-                </div> : <div className='hidden sm:block m'>
+                </div> : <div className='hidden sm:block me-'>
                   <button type='button' className='border  cursor-pointer -mt-3 px-5 bg-blue-500 text-white py-2 rounded-full '>Create account</button>
                 </div>
               }
