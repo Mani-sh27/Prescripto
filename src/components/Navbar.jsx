@@ -9,7 +9,7 @@ const Navbar = () => {
             <img className=' mt-9 text-2xl  sm:mt-6 min-w-45' src={assets.logo} alt="" />
         </div>
         <button>
-
+          
         </button>
         <div>
           <ul className='flex mt-10 gap-10 ms-28'>
