@@ -36,7 +36,7 @@ const Navbar = () => {
                 token ? <div className='w-9  flex -top-3 relative'>
                   <img src={assets.profile_pic} className='rounded-full me-2 ' />
                   <img src={assets.dropdown_icon}  />
-                  <div>
+                  <div abso>
                     <div>
                       <p>My Profile</p>
                       <p>My-Appointments</p>
