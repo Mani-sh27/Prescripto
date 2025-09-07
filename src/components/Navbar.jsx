@@ -38,7 +38,7 @@ const Navbar = () => {
                   <img src={assets.dropdown_icon}  />
                   <div>
                     <div>
-                      
+                      <p></p>
                     </div>
                   </div>
                 </div> : <div className='hidden sm:block'>
