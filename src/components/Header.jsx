@@ -11,7 +11,7 @@ const Header = () => {
           <p className='ms-4'>Simply browse through our extensive list of trusted doctors, <br />
             schedule your appointment hassle-free.</p>
         </div>
-        <button className='bg-[5f6fff]' type='button'>Book appointment</button>
+        <button className='bg-[#5f6fff]' type='button'>Book appointment</button>
 
       </section>
       <section>
