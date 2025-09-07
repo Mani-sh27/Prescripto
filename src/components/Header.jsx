@@ -8,7 +8,7 @@ const Header = () => {
           With Trusted Doctors</p>
         <div className='flex  relative top-38 text-white left-20'>
           <img src={assets.group_profiles} alt="" />
-          <p className='s'>Simply browse through our extensive list of trusted doctors, <br />
+          <p className=''>Simply browse through our extensive list of trusted doctors, <br />
             schedule your appointment hassle-free.</p>
             <button type='button'></button>
         </div>
