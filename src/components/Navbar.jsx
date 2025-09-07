@@ -37,7 +37,7 @@ const Navbar = () => {
                   <img src={assets.profile_pic} className='rounded-full me-2 ' />
                   <img src={assets.dropdown_icon}  />
                   <div className='absolute top-0 right-0 pt-14 '>
-                    <div className='bg-gray-100 p-8'>
+                    <div className='bg-gray-100 px-8'>
                       <p>My Profile</p>
                       <p>My-Appointments</p>
                       <p>LogOut</p>
