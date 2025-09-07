@@ -16,6 +16,9 @@ const Navbar = () => {
         </button>
         <div  >
           <ul className='mt-10  gap-10  sm:flex hidden'>
+            <div>
+              
+            </div>
             <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/'>
               <li className='font-semibold text-sm'>HOME</li>
             </NavLink>
