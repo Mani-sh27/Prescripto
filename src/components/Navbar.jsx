@@ -24,7 +24,7 @@ const Navbar = () => {
               <li className='font-semibold text-sm'>CONTACT</li>
             </NavLink>
              <NavLink to='/admin'>
-              <li className='border px-3 py-1 rounded-full -mt-'>Admin Panel</li>
+              <li className='border px-3 py-1 rounded-full -mt-2'>Admin Panel</li>
             </NavLink>
           </ul>
         </div>
