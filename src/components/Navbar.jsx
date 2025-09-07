@@ -24,7 +24,7 @@ const Navbar = () => {
               <li className='font-semibold text-sm'>CONTACT</li>
             </NavLink>
              <NavLink to='/admin'>
-              <li className='font- '>Admin Panel</li>
+              <li className=' '>Admin Panel</li>
             </NavLink>
           </ul>
         </div>
