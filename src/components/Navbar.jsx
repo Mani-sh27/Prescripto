@@ -12,7 +12,7 @@ const Navbar = () => {
         njxfnjd
         </button>
         <div>
-          <ul className='flex mt-10 gap-10 ms-28 '>
+          <ul className='flex mt-10 gap-10 ms-28 sm:'>
             <NavLink className={({isActive})=>`pb-1 ${isActive ? ' border-b-2': '' }`} to='/'>
               <li className='font-semibold text-sm'>HOME</li>
             </NavLink>
