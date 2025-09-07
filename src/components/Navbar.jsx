@@ -33,7 +33,7 @@ const Navbar = () => {
             </NavLink>
             <div className='flex'>
               {
-                token ? <div className='w-10 rounde flex'>
+                token ? <div className='w-10 rounded-full flex'>
                   <img src={assets.profile_pic} alt="" />
                   <img src={assets.dropdown_icon} alt="" />
                 </div> : <div className='hidden sm:block'>
