@@ -40,7 +40,7 @@ const Navbar = () => {
                     <div className='bg-gray-100 px-8 py-4 leading-7 '>
                       <ul className='-ms-4'>
                         <p className='cursor-pointer'>My Profile</p>
-                        <p className=''>My-Appointments</p>
+                        <p className='cursor-pointer'>My-Appointments</p>
                         <p className=''>LogOut</p>
                       </ul>
 
