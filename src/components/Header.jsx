@@ -7,6 +7,7 @@ const Header = () => {
         <p>Book Appointment <br />
           With Trusted Doctors</p>
           <img src={assets.group_profiles} alt="" />
+          
       </section>
       <section>
 
