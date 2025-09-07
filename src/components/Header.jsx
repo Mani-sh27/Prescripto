@@ -4,7 +4,8 @@ const Header = () => {
   return (
     <div className='flex'>
       <section>
-        <h2></h2>
+        <h2>Book Appointment
+With Trusted Doctors</h2>
       </section>
       <section>
 
