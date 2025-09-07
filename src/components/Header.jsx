@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 const Header = () => {
   return (
-    <div className='m'>
+    <div className=''>
       <section>
         <h2></h2>
       </section>
