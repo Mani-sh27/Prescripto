@@ -36,7 +36,7 @@ const Navbar = () => {
                 token ? <div className='w-9  flex -top-3 relative'>
                   <img src={assets.profile_pic} className='rounded-full me-2 ' />
                   <img src={assets.dropdown_icon} />
-                  <div className='absolute top-0 right-0 pt-14  w-[200px] group-hover:block'>
+                  <div className='absolute top-0 right-0 pt-14  w-[200px] hidden group-hover:block'>
                     <div className='bg-gray-100 px-8 py-4 leading-7 '>
                       <ul className='-ms-4'>
                         <p className='cursor-pointer'>My Profile</p>
