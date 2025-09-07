@@ -10,7 +10,6 @@ const Header = () => {
           <img src={assets.group_profiles} alt="" />
           <p>Simply browse through our extensive list of trusted doctors, <br />
             schedule your appointment hassle-free.</p>
-            b
         </div>
 
       </section>
