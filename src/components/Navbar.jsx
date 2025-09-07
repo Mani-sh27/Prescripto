@@ -44,7 +44,6 @@ const Navbar = () => {
                         <p onClick={()=>navigate('/my-Appointments')} className='cursor-pointer hover:font-semibold'>My-Appointments</p>
                         <p onClick={()=>setToken(false)} className='cursor-pointer hover:font-semibold'>LogOut</p>
                       </ul>
-
                     </div>
                   </div>
                 </div> : <div className='hidden sm:block'>
