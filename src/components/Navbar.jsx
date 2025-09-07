@@ -38,7 +38,7 @@ const Navbar = () => {
                   <img src={assets.dropdown_icon}  />
                   <div className='absolute top-0 right-0 pt-14 '>
                     <div className='bg-gray-100 px-8 py-2'>
-                      <p>My Profile</p>
+                      <p className=''>My Profile</p>
                       <p>My-Appointments</p>
                       <p>LogOut</p>
                     </div>
