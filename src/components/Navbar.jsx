@@ -34,7 +34,7 @@ const Navbar = () => {
             </NavLink>
             <div className='flex ms-40  group'>
               {
-                token ? <div className='w-9  flex -top-3 m relative'>
+                token ? <div className='w-9  flex -top-3  relative'>
                   <img src={assets.profile_pic} className='rounded-full me-2 ' />
                   <img className='text-xs' src={assets.dropdown_icon} />
                   <div className='absolute top-0 right-0 pt-14  w-[200px] hidden group-hover:block'>
