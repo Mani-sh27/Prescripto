@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <div>
       <section>
-
+        <h2></h2>
       </section>
       <section>
-        
+
       </section>
     </div>
   )
