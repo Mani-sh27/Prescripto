@@ -1,32 +1,34 @@
 import React, { useState } from 'react'
-import { assets } from '../assets/assets_frontend/assets';
+import   { assets } from '../assets/assets_frontend/assets';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
-  const [open, setIsOpen] = useState(false)
-  const [token, setToken] = useState()
+  const [open,setIsOpen] = useState(false)
+  const [token , setToken] = useState()
   return (
     <header>
       <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex min-w-[890px]    '>
         <div>
-          <img className=' mt-9 text-2xl  sm:mt-6 min-w-45' src={assets.logo} alt="" />
+            <img className=' mt-9 text-2xl  sm:mt-6 min-w-45' src={assets.logo} alt="" />
         </div>
-
+        <button className=' flex relative left-60 top-12 text-3xl sm:hidden' onClick={()=>setIsOpen(!open)}>
+        {open ? '✖': '☰'}
+        </button>
         <div>
           <ul className=' mt-10 gap-10 ms-28  sm:flex  hidden '>
-            <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/'>
+            <NavLink className={({isActive})=>`pb-1 ${isActive ? ' border-b-2': '' }`} to='/'>
               <li className='font-semibold text-sm'>HOME</li>
             </NavLink>
 
-            <NavLink className={({ isActive }) => `pb-1 ${isActive ? ' border-b-2' : ''}`} to='/doctors'>
+            <NavLink className={({isActive})=>`pb-1 ${isActive ? ' border-b-2' : ''}`} to='/doctors'>
               <li className='font-semibold text-sm'>ALL DOCTORS</li>
             </NavLink>
-            <NavLink className={({ isActive }) => `pb-1${isActive ? ' border-b-2' : ''}`} to='/about'>
+            <NavLink className={({isActive})=>`pb-1${isActive ? ' border-b-2' : ''}`} to='/about'>
               <li className='font-semibold text-sm'>ABOUT</li>
             </NavLink>
-            <NavLink className={({ isActive }) => `pb-1${isActive ? ' border-b-2' : ''}`} to='/contact'>
+            <NavLink className={({isActive})=>`pb-1${isActive ? ' border-b-2' : ''}`} to='/contact'>
               <li className='font-semibold text-sm'>CONTACT</li>
             </NavLink>
-            <NavLink to='/admin'>
+             <NavLink to='/admin'>
               <li className='border px-3 py-1 rounded-full -mt-1 font-semibold text-xs transition-all duration-700 hover:bg-black hover:text-white '>Admin Panel</li>
             </NavLink>
             <div className='flex'>
@@ -34,20 +36,18 @@ const Navbar = () => {
                 token ? <div>
                   <img src={assets.profile_pic} alt="" />
                   <img src={assets.dropdown_icon} alt="" />
-                </div> : <button className=' flex relative left-60 top-12 text-3xl sm:hidden' onClick={() => setIsOpen(!open)}>
-                  {open ? '✖' : '☰'}
-                </button>
+                </div> : <button></button>
               }
 
             </div>
           </ul>
-
+          
         </div>
         <div className='hidden sm:block'>
           <button type='button' className='border cursor-pointer mt-7 px-5 bg-blue-500 text-white py-2 rounded-full ms-10'>Create account</button>
         </div>
       </div>
-
+     
 
     </header>
   )
