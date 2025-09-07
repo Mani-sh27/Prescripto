@@ -40,8 +40,8 @@ const Navbar = () => {
                   <div className='absolute top-0 right-0 pt-14  w-[200px] hidden group-hover:block'>
                     <div className='bg-gray-100 px-8 py-4 leading-7 z-10'>
                       <ul className='-ms-4'>
-                        <p onClick={()=>navigate('/my-Profile')} className='cursor-pointer hover:text-black'>My Profile</p>
-                        <p onClick={()=>navigate('/my-Appointments')} className='cursor-pointer hover:text-black'>My-Appointments</p>
+                        <p onClick={()=>navigate('/my-Profile')} className='cursor-pointer hover:text-black fonr'>My Profile</p>
+                        <p onClick={()=>navigate('/my-Appointments')} className='cursor-pointer hover:text-black fonr'>My-Appointments</p>
                         <p className='cursor-pointer'>LogOut</p>
                       </ul>
 
