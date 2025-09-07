@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
             <img className=' mt-9 text-2xl  sm:mt-6 min-w-45' src={assets.logo} alt="" />
         </div>
-        <button className=' flex relative left-2 sm:hidden' onClick={()=>setOpen(!open)}>
+        <button className=' flex relative left-5 sm:hidden' onClick={()=>setOpen(!open)}>
         {open ? '✖': '☰'}
         </button>
         <div>
