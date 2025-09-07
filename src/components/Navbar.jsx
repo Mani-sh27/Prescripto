@@ -40,7 +40,9 @@ const Navbar = () => {
                     <div className='bg-gray-100 px-8 py-4 leading-7 z-10'>
                       <ul className='-ms-4'>
                         <p onClick={} className='cursor-pointer'>My Profile</p>
-                        <p onClick={} className='cursor-pointer'>My-Appointments</p>
+                        <p onClick={
+                          9
+                        } className='cursor-pointer'>My-Appointments</p>
                         <p className='cursor-pointer'>LogOut</p>
                       </ul>
 
