@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <header>
-      <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex min-w-[850px]  '>
+      <div className='flex justify-between mx-42 ms-30 pb-4 border-b-[0.1px] sm:flex min-w-[850px] me-30 '>
         <div>
             <img className=' mt-9 text-2xl  sm:mt-6 min-w-45' src={assets.logo} alt="" />
         </div>
         <button>
-          
+
         </button>
         <div>
           <ul className='flex mt-10 gap-10 ms-28'>
