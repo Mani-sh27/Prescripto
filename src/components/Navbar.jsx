@@ -10,7 +10,7 @@ const Navbar = () => {
             <img className=' mt-9 text-2xl  sm:mt-6 min-w-45' src={assets.logo} alt="" />
         </div>
         <button className=' flex relative left-60 text-3xl sm:hidden' onClick={()=>setOpen(!open)}>
-        {open) ? '✖': '☰'}
+        {(open) ? '✖': '☰'}
         </button>
         <div>
           <ul className=' mt-10 gap-10 ms-28  sm:flex  hidden '>
