@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import   { assets } from '../assets/assets_frontend/assets';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
-  const [open,setIsOpen] = useState(false)
+  const [open,setIsOpen] = useState(true)
   const 
   return (
     <header>
