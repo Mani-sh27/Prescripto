@@ -40,7 +40,7 @@ const Navbar = () => {
                     <div>
                       <p>My Profile</p>
                       <p>My-Appointments</p>
-                      <p></p>
+                      <p>LogOut</p>
                     </div>
                   </div>
                 </div> : <div className='hidden sm:block'>
