@@ -27,7 +27,7 @@ const Navbar = () => {
               <li className='border px-3 py-1 rounded-full -mt-1 font-semibold text-xs transition-all duration-700 hover:bg-black hover:text-white '>Admin Panel</li>
             </NavLink>
           </ul>
-          <hr className='' />
+          <hr className='sm:' />
         </div>
         <div>
           <button type='button' className='border cursor-pointer mt-7 px-5 bg-blue-500 text-white py-2 rounded-full ms-10'>Create account</button>
