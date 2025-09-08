@@ -10,7 +10,8 @@ const SpecialityMenu = () => {
       </section>
        <section>
             { specialityData.map((item , index)=>(
-              <Link></Link>
+              <Link>
+              </Link>
               ))}
        </section>
     </div>
