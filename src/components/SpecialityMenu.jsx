@@ -5,7 +5,7 @@ const SpecialityMenu = () => {
     <div>
       <section>
           <p>Find by Speciality</p>
-          
+          p
       </section>
        <section>
 
