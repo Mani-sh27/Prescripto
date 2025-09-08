@@ -8,7 +8,7 @@ const Header = () => {
           With Trusted Doctors</p>
         <div className='sm:flex'>
           <img src={assets.group_profiles} className='sm:w-30 me-4' />
-          <p className=' sm:text-white '>Simply browse through our extensive list of trusted doctors,<br />
+          <p className=' sm:text-white rela'>Simply browse through our extensive list of trusted doctors,<br />
             schedule your appointment hassle-free.</p>
         </div>
         <div className='sm:flex relative left-20 top-48'> 
