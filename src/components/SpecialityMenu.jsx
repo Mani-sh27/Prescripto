@@ -9,7 +9,7 @@ const SpecialityMenu = () => {
           <p>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
       </section>
        <section>
-            { specialityData.map(()=>(
+            { specialityData.map((item , )=>(
               <Link></Link>
               ))}
        </section>
