@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className=' min-w-[900px] flex-row relative -left-7 h-[1500px] sm:flex  bg-[#5f6fff] mx-36 sm:relative sm:-left-6 mt-4 rounded-xl sm:h-[500px]'>
       <section >
-        <p className='t-white  sm:text-white relative sm:left-20 sm:font-semibold sm:top-30 '>Book Appointment <br />
+        <p className=' '>Book Appointment <br />
           With Trusted Doctors</p>
         <div className=''>
           <img src={assets.group_profiles} className='' />
