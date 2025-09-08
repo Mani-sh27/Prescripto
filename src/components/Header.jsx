@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div className='sm:flex relative left-20 top-48'> 
         <button className=' ms-30 bg-white sm:bg-[white] px-10 ps-5 py-2 rounded-full' type='button'>Book appointment</button>
-        <img src={assets.arrow_icon} className=' relative left-70   sm:w-4 cursor-pointer sm:-left-8'  />
+        <img src={assets.arrow_icon} className=' relative left-70 -top-  sm:w-4 cursor-pointer sm:-left-8'  />
         </div>
 
       </section>
