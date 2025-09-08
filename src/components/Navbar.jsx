@@ -74,11 +74,7 @@ const Navbar = () => {
     <NavLink to="/contact" onClick={() => setIsOpen(false)}>
       <li className="font-semibold">CONTACT</li>
     </NavLink>
-    <NavLink to="/admin" onClick={() => setIsOpen(false)}>
-      <li className="border px-3 py-1 rounded-full font-semibold text-xs">
-        Admin Panel
-      </li>
-    </NavLink>
+   
     {token ? (
       <div className="flex flex-col gap-2">
         <p
