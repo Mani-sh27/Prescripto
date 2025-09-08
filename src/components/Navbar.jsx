@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets';
 import { Navigate, NavLink, useNavigate } from 'react-router-dom';
 const Navbar = () => {
   const [open, setIsOpen] = useState(false)
-  const [token, setToken] = useState(true)
+  const [token, setToken] = useState(false)
   const navigate =useNavigate()
   return (
     <header>
