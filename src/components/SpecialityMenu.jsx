@@ -10,7 +10,7 @@ const SpecialityMenu = () => {
       </section>
        <section>
             { specialityData.map((item , index)=>(
-              <Link className=''>
+              <Link '>
 
               </Link>
               ))}
