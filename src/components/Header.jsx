@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets_frontend/assets'
 const Header = () => {
   return (
-    <div className=' min-w-[900px] flex-row relative -left-7 h-[120px] sm:flex  bg-[#5f6fff] mx-36 sm:relative sm:-left-6 mt-4 rounded-xl sm:h-[500px]'>
+    <div className=' min-w-[900px] flex-row relative -left-7 h-[1270px] sm:flex  bg-[#5f6fff] mx-36 sm:relative sm:-left-6 mt-4 rounded-xl sm:h-[500px]'>
       <section >
         <p className='text-white relative top-28 left-38 font-semibold text-5xl sm:text-white sm:relative sm:left-20 sm:text-4xl sm:top-30'>Book Appointment <br />
           With Trusted Doctors</p>
