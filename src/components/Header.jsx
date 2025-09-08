@@ -18,7 +18,7 @@ const Header = () => {
 
       </section>
       <section> 
-        <img src={assets.header_img} className='w-[970px] relative top-45 -left-2  sm:w-[500px] sm:top-24  sm:relative sm:left-18' />
+        <img src={assets.header_img} className='w-[970px] relative top-45 -left-  sm:w-[500px] sm:top-24  sm:relative sm:left-18' />
       </section>
     </div>
   )
