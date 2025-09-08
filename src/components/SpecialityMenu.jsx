@@ -5,7 +5,7 @@ const SpecialityMenu = () => {
   return (
     <div>
       <section className='sm:relative'>
-          <p className=' text-center sm:relative top-10 text-center text-3xl font-semibold '>Find by Speciality</p>
+          <p className=' text-center sm:relative top-10 sm:text-center text-3xl font-semibold '>Find by Speciality</p>
           <p className='sm:absolute text-center text-sm left-[580px] mt-10  top-20  '>Simply browse through our extensive list of trusted doctors,<br />schedule your appointment hassle-free.</p>
       </section>
        <section id='Speciality' className=' sm:flex gap-5 justify-center mt-30 text-center'>
