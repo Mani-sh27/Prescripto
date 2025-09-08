@@ -4,10 +4,10 @@ const SpecialityMenu = () => {
   return (
     <div>
       <section>
-
+          
       </section>
        <section>
-        
+
        </section>
     </div>
   )
