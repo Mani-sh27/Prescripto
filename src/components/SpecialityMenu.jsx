@@ -9,7 +9,9 @@ const SpecialityMenu = () => {
       </section>
        <section>
             {
-              specialityData.map(()=>)
+              specialityData.map(()=>(
+                
+              ))
             }
        </section>
     </div>
