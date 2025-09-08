@@ -4,8 +4,9 @@ const SpecialityMenu = () => {
   return (
     <div>
       <section>
-        
+
       </section>
+       secct
     </div>
   )
 }
