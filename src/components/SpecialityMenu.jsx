@@ -9,7 +9,7 @@ const SpecialityMenu = () => {
       </section>
        <section>
             { specialityData.map(()=>(
-              
+              <></>
               ))}
        </section>
     </div>
