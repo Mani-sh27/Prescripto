@@ -55,36 +55,68 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-           {open && (
-        <div className="sm:hidden bg-white shadow-md">
-          <ul className="flex flex-col items-start gap-4 px-6 py-4">
-            <NavLink to="/" onClick={() => setIsOpen(false)}>
-              <li className="font-semibold">HOME</li>
-            </NavLink>
-            <NavLink to="/doctors" onClick={() => setIsOpen(false)}>
-              <li className="font-semibold">ALL DOCTORS</li>
-            </NavLink>
-            <NavLink to="/about" onClick={() => setIsOpen(false)}>
-              <li className="font-semibold">ABOUT</li>
-            </NavLink>
-            <NavLink to="/contact" onClick={() => setIsOpen(false)}>
-              <li className="font-semibold">CONTACT</li>
-            </NavLink>
-            <NavLink to="/admin" onClick={() => setIsOpen(false)}>
-              <li className="border px-3 py-1 rounded-full font-semibold text-xs">Admin Panel</li>
-            </NavLink>
-            {token ? (
-              <div className="flex flex-col gap-2">
-                <p onClick={() => {navigate('/my-Profile'); setIsOpen(false);}} className="cursor-pointer hover:font-semibold">My Profile</p>
-                <p onClick={() => {navigate('/my-Appointments'); setIsOpen(false);}} className="cursor-pointer hover:font-semibold">My Appointments</p>
-                <p onClick={() => setToken(false)} className="cursor-pointer hover:font-semibold">Log Out</p>
-              </div>
-            ) : (
-              <button type="button" className="border cursor-pointer px-5 bg-blue-500 text-white py-2 rounded-full">Create account</button>
-            )}
-          </ul>
-        </div>
-      )}
+       {/* Mobile Collapsed Menu */}
+<div
+  className={`sm:hidden bg-white shadow-md overflow-hidden transition-all duration-500 ease-in-out ${
+    open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+  }`}
+>
+  <ul className="flex flex-col items-start gap-4 px-6 py-4">
+    <NavLink to="/" onClick={() => setIsOpen(false)}>
+      <li className="font-semibold">HOME</li>
+    </NavLink>
+    <NavLink to="/doctors" onClick={() => setIsOpen(false)}>
+      <li className="font-semibold">ALL DOCTORS</li>
+    </NavLink>
+    <NavLink to="/about" onClick={() => setIsOpen(false)}>
+      <li className="font-semibold">ABOUT</li>
+    </NavLink>
+    <NavLink to="/contact" onClick={() => setIsOpen(false)}>
+      <li className="font-semibold">CONTACT</li>
+    </NavLink>
+    <NavLink to="/admin" onClick={() => setIsOpen(false)}>
+      <li className="border px-3 py-1 rounded-full font-semibold text-xs">
+        Admin Panel
+      </li>
+    </NavLink>
+    {token ? (
+      <div className="flex flex-col gap-2">
+        <p
+          onClick={() => {
+            navigate("/my-Profile");
+            setIsOpen(false);
+          }}
+          className="cursor-pointer hover:font-semibold"
+        >
+          My Profile
+        </p>
+        <p
+          onClick={() => {
+            navigate("/my-Appointments");
+            setIsOpen(false);
+          }}
+          className="cursor-pointer hover:font-semibold"
+        >
+          My Appointments
+        </p>
+        <p
+          onClick={() => setToken(false)}
+          className="cursor-pointer hover:font-semibold"
+        >
+          Log Out
+        </p>
+      </div>
+    ) : (
+      <button
+        type="button"
+        className="border cursor-pointer px-5 bg-blue-500 text-white py-2 rounded-full"
+      >
+        Create account
+      </button>
+    )}
+  </ul>
+</div>
+
 
 
     </header>
