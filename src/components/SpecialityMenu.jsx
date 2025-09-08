@@ -6,7 +6,7 @@ const SpecialityMenu = () => {
     <div>
       <section>
           <p className='sm:relative top-10 text-center text-3xl  '>Find by Speciality</p>
-          <p className=''>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
+          <p className='sm:'>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
       </section>
        <section id='Speciality' className=' sm:flex gap-5 ms-80 text-center'>
             { specialityData.map((item , index)=>(
