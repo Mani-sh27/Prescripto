@@ -6,7 +6,9 @@ const SpecialityMenu = () => {
       <section>
 
       </section>
-       secct
+       <section>
+        
+       </section>
     </div>
   )
 }
