@@ -76,9 +76,7 @@ const Navbar = () => {
     </NavLink>
    
     {token ? (
-      <div className="flex flex-col gap-2">
-      
-      </div>
+     
     ) : (
       <button
         type="button"
