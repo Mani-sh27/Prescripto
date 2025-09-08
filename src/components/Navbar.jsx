@@ -124,8 +124,6 @@ const Navbar = () => {
     )}
   </ul>
 </div>
-
-
     </header>
   )
 }
