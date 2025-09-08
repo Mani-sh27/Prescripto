@@ -116,7 +116,7 @@ const Navbar = () => {
       </div>
     ) : (
       <button
-        type="button"
+        type="bu  tton"
         className="border cursor-pointer px-5 bg-blue-500 text-white py-2 rounded-full"
       >
         Create account
