@@ -4,7 +4,7 @@ const SpecialityMenu = () => {
   return (
     <div>
       <section>
-          <p>F</p>
+          <p>Find </p>
       </section>
        <section>
 
