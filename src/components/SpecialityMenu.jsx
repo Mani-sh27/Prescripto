@@ -8,7 +8,7 @@ const SpecialityMenu = () => {
           <p>Find by Speciality</p>
           <p>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
       </section>
-       <section>
+       <section id=''>
             { specialityData.map((item , index)=>(
               <Link >
 
