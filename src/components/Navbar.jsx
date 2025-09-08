@@ -56,28 +56,63 @@ const Navbar = () => {
         </div>
       </div>
        {/* Mobile Collapsed Menu */}
+{/* Mobile Sliding Menu */}
 <div
-  className={`sm:hidden bg-white shadow-md overflow-hidden transition-all duration-500 ease-in-out ${
-    open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+  className={`sm:hidden fixed top-0 right-0 h-full w-full bg-white shadow-lg z-50 transform transition-transform duration-500 ease-in-out ${
+    open ? "translate-x-0" : "translate-x-full"
   }`}
 >
-  <ul className="flex flex-col items-start gap-4 px-6 py-4">
+  {/* Close button */}
+  <button
+    className="absolute top-5 right-6 text-3xl"
+    onClick={() => setIsOpen(false)}
+  >
+    ✖
+  </button>
+
+  <ul className="flex flex-col items-center justify-center h-full gap-8 text-xl font-semibold">
     <NavLink to="/" onClick={() => setIsOpen(false)}>
-      <li className="font-semibold">HOME</li>
+      <li>HOME</li>
     </NavLink>
     <NavLink to="/doctors" onClick={() => setIsOpen(false)}>
-      <li className="font-semibold">ALL DOCTORS</li>
+      <li>ALL DOCTORS</li>
     </NavLink>
     <NavLink to="/about" onClick={() => setIsOpen(false)}>
-      <li className="font-semibold">ABOUT</li>
+      <li>ABOUT</li>
     </NavLink>
     <NavLink to="/contact" onClick={() => setIsOpen(false)}>
-      <li className="font-semibold">CONTACT</li>
+      <li>CONTACT</li>
     </NavLink>
-   
+    <NavLink to="/admin" onClick={() => setIsOpen(false)}>
+      <li className="border px-4 py-2 rounded-full text-sm">Admin Panel</li>
+    </NavLink>
+
     {token ? (
-      <div className="flex flex-col gap-2">
-      
+      <div className="flex flex-col gap-4 text-lg">
+        <p
+          onClick={() => {
+            navigate("/my-Profile");
+            setIsOpen(false);
+          }}
+          className="cursor-pointer hover:font-semibold"
+        >
+          My Profile
+        </p>
+        <p
+          onClick={() => {
+            navigate("/my-Appointments");
+            setIsOpen(false);
+          }}
+          className="cursor-pointer hover:font-semibold"
+        >
+          My Appointments
+        </p>
+        <p
+          onClick={() => setToken(false)}
+          className="cursor-pointer hover:font-semibold"
+        >
+          Log Out
+        </p>
       </div>
     ) : (
       <button
@@ -89,7 +124,6 @@ const Navbar = () => {
     )}
   </ul>
 </div>
-
 
 
     </header>
