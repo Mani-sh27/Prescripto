@@ -90,30 +90,7 @@ const Navbar = () => {
         >
           My Profile
         </p>
-        <p
-          onClick={() => {
-            navigate("/my-Appointments");
-            setIsOpen(false);
-          }}
-          className="cursor-pointer hover:font-semibold"
-        >
-          My Appointments
-        </p>
-        <p
-          onClick={() => setToken(false)}
-          className="cursor-pointer hover:font-semibold"
-        >
-          Log Out
-        </p>
-      </div>
-    ) : (
-      <button
-        type="button"
-        className="border cursor-pointer px-5 bg-blue-500 text-white py-2 rounded-full"
-      >
-        Create account
-      </button>
-    )}
+
   </ul>
 </div>
 
