@@ -14,7 +14,6 @@ const Header = () => {
         <div className='sm:flex relative left-20 top-48'> 
         <button className='sm:bg-[white] px-10 ps-5 py-2 rounded-full' type='button'>Book appointment</button>
         <img src={assets.arrow_icon} className='sm:relative -left-7'  />
-
         </div>
 
       </section>
