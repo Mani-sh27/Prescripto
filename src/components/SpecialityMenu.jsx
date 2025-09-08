@@ -1,5 +1,6 @@
 import React from 'react'
 import { assets, specialityData } from '../assets/assets_frontend/assets'
+import { Link } from 'react-router-dom'
 const SpecialityMenu = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ const SpecialityMenu = () => {
       </section>
        <section>
             { specialityData.map(()=>(
-              <></>
+              <Link></Link>
               ))}
        </section>
     </div>
