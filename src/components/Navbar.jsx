@@ -77,30 +77,7 @@ const Navbar = () => {
    
     {token ? (
       <div className="flex flex-col gap-2">
-        <p
-          onClick={() => {
-            navigate("/my-Profile");
-            setIsOpen(false);
-          }}
-          className="cursor-pointer hover:font-semibold"
-        >
-          My Profile
-        </p>
-        <p
-          onClick={() => {
-            navigate("/my-Appointments");
-            setIsOpen(false);
-          }}
-          className="cursor-pointer hover:font-semibold"
-        >
-          My Appointments
-        </p>
-        <p
-          onClick={() => setToken(false)}
-          className="cursor-pointer hover:font-semibold"
-        >
-          Log Out
-        </p>
+      
       </div>
     ) : (
       <button
