@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className='ms-48'>
         <h2>COMPANY</h2>
-        <ul className='flex-col '>
+        <ul className='flex-col gap-'>
           <li>HOME</li>
           <li></li>
           <li></li>
