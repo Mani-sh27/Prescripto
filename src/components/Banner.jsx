@@ -12,7 +12,7 @@ const Banner = () => {
         <button className='sm:text-md relative top-8 -left-110    bg-white sm:top-52 sm:-left-130 px-6 py-2 rounded-full'>Create Account</button>
       </div>
       <section>
-        <img className='sm:w-xs me-20  sm:flex hidden ' src={assets.appointment_img}  />
+        <img className='sm:w-xs me-20  sm:flex  ' src={assets.appointment_img}  />
       </section>
     </div>
   )
