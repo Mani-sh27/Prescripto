@@ -10,7 +10,7 @@ const Banner = () => {
       </section>
         <button className='sm: flex text-white text-2xl'>Create Account</button>
       <section>
-        <img className='sm:w-xs me-20 hidden  ' src={assets.appointment_img}  />
+        <img className='sm:w-xs me-20 hidden md:block ' src={assets.appointment_img}  />
       </section>
     </div>
   )
