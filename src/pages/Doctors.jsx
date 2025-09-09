@@ -4,7 +4,7 @@ const Doctors = () => {
   return (
     <div>
       <p>Top Doctors</p>
-      <p></p>
+      <p>D</p>
     </div>
   )
 }
