@@ -19,6 +19,7 @@ const Footer = () => {
       </div>
       <div>
         <h2>Get In Touch</h2>
+        <p></p>
       </div>
     </div>
   )
