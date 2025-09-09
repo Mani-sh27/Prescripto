@@ -19,7 +19,7 @@ const Doctors = () => {
           ))
         }
       </div>
-      <button className='sm:flex justify-center bg-white'>More</button>
+      <button className='sm:flex justify-center bg-gray-'>More</button>
     </div>
   )
   
