@@ -21,7 +21,7 @@ const Doctors = () => {
       </div>
     </div>
   )
-  <button></button>
+  <button>More </button>
 }
 
 export default Doctors
