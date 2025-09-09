@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='sm:w-[1240px] w-[860px] flex-col flex border-4 mt-38 gap-0 ms-32 sm:grid grid-cols-3'>
       <div className=''>
         <img  className='' src={assets.logo}  />
-        <p className='  sm:leading-7 text-sm mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic, quam, ipsa dicta nihil, culpa sequi in voluptas unde architecto libero cum aut veniam beatae adipisci dolores odio officia modi quibusdam molestias ipsam itaque. Architecto rem deleniti nemo </p>
+        <p className=' flex-wr sm:leading-7 text-sm mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic, quam, ipsa dicta nihil, culpa sequi in voluptas unde architecto libero cum aut veniam beatae adipisci dolores odio officia modi quibusdam molestias ipsam itaque. Architecto rem deleniti nemo </p>
       </div>
       <div className='ms-48'>
         <h2 className='text-2xl font-medium'>COMPANY</h2>
