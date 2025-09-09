@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       <div>
         <h2>Get In Touch</h2>
-        <p></p>
+        <p>+0-000-000-000</p>
       </div>
     </div>
   )
