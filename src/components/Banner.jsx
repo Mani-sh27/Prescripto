@@ -10,7 +10,7 @@ const Banner = () => {
       </section>
         <button>Create Account</button>
       <section>
-        <img className='w-xs me-20  ' src={assets.appointment_img}  />
+        <img className='smw-xs me-20  ' src={assets.appointment_img}  />
       </section>
     </div>
   )
