@@ -20,7 +20,7 @@ const Footer = () => {
       <div>
         <h2 className='text-2xl font-medium'>Get In Touch</h2>
         <p className='mt-8 text-gray-600 text-sm leading-7'>+0-000-000-000</p>
-        <p>greatstackdev@gmail.com</p>
+        <p className='mt-8 text-gray-600 text-sm leading-7'>greatstackdev@gmail.com</p>
       </div>
     </div>
   )
