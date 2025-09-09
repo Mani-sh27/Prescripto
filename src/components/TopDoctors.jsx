@@ -3,7 +3,7 @@ import { assets, doctors } from '../assets/assets_frontend/assets';
 const Doctors = () => {
   return (
     <div>
-      <p className='text-center mt-30 text-4xl'>Top Doctors</p>
+      <p className='text-center mt-30 text-4xl '>Top Doctors</p>
       <p className='text-center '>Simply browse through our extensive list of trusted doctors.</p>
       <div className='w-[850px] gap-8 grid grid-cols-2  sm:gap-5 sm:grid sm:w-[1240px] mt-10 relative left-32 sm:grid-cols-5'>
         {
