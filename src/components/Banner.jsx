@@ -5,6 +5,7 @@ const Banner = () => {
     <div>
       <div>
         <p></p>
+        <p></p>
       </div>
     </div>
   )
