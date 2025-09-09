@@ -12,7 +12,7 @@ const Doctors = () => {
               <div className=''>
                 <img src={item.image} alt="" />
                 <div>
-                  <p className='text-center'>Available</p>
+                  <p className=''>Available</p>
                   <p>{item.name}</p>
                   <p>{item.speciality}</p>
                 </div>
