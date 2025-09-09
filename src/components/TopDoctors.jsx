@@ -13,8 +13,8 @@ const Doctors = () => {
                 <img src={item.image} alt="" />
                 <div>
                   <p>Available</p>
-                  <p>Dr Richard James</p>
-                  
+                  <p></p>
+
                 </div>
               </div>
           ))
