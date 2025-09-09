@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className=' flex-row sm:flex relative bg-[#5f6fff] mt-20 rounded-xl w-[860px] justify-between left-64 -ms-32 sm:w-[1240px]'>
       <section className='h-56 sm:text-4xl text-white  font-semibold relative left-28 top-20'>
-        <p>Book Appointment</p>
+        <p className=''>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
       </section>
         <button>Create Account</button>
