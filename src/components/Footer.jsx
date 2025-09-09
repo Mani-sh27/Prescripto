@@ -23,6 +23,7 @@ const Footer = () => {
         <p className=' text-gray-600 text-sm leading-7'>greatstackdev@gmail.com</p>
       </div>
     </div>
+    <hr />
   )
 }
 
