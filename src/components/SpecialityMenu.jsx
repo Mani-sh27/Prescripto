@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const SpecialityMenu = () => {
   return (
     <div>
-      <section className=' relative top-2 sm:relative top-'>
+      <section className=' relative top-2 sm:relative top-2'>
           <p className=' text-center text-5xl  sm:relative top-10  sm:text-3xl font-semibold '>Find by Speciality</p>
           <p className='sm:absolute text-center text-sm left-[580px]  mt-10  top-20  '>Simply browse through our extensive list of trusted doctors,<br />schedule your appointment hassle-free.</p>
       </section>
