@@ -20,6 +20,7 @@ const Footer = () => {
       <div>
         <h2>Get In Touch</h2>
         <p>+0-000-000-000</p>
+        <p></p>
       </div>
     </div>
   )
