@@ -12,7 +12,7 @@ const Doctors = () => {
               <div className='sm:rounded-xl border-blue-200 shadow-sm '>
                 <img className='bg-blue-50' src={item.image} alt="" />
                 <div>
-                  <p className='mt'>Available</p>
+                  <p className='mt-'>Available</p>
                   <p className=''>{item.name}</p>
                   <p className=''>{item.speciality}</p>
                 </div>
