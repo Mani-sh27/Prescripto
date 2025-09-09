@@ -13,7 +13,9 @@ const Footer = () => {
         <ul className=''>
           <li>Home</li>
           <li>About us</li>
-          <li></li>
+          <li>
+            
+          </li>
           <li></li>
         </ul>
       </div>
