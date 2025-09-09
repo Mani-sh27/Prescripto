@@ -11,7 +11,7 @@ const SpecialityMenu = () => {
        <section id='Speciality' className=' sm:flex gap-5 justify-center mt-30 text-center'>
             { specialityData.map((item , index)=>(
               <Link key={index} to={`/doctors/${item.speciality}`}>
-                  <img className='sm:size-20 mt-15' src={item.image}   />
+                  <img className='sm:size-20 mt-8' src={item.image}   />
                   <p className='sm:text-sm mt-2'>{item.speciality}</p>
               </Link>
               ))}
