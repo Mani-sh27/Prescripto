@@ -4,7 +4,7 @@ import { assets } from '../assets/assets_frontend/assets'
 const Banner = () => {
   return (
     <div className=' flex relative bg-[#5f6fff] justify-between left-64 -ms-32 w-[1240px]'>
-      <section>
+      <section className=''>
         <p>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
       </section>
