@@ -1,5 +1,5 @@
 import React from 'react'
-impo
+import {  } from "module";
 const Home = () => {
   return (
     <div> <Header />
