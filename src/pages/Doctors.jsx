@@ -8,7 +8,9 @@ const Doctors = () => {
       <div>
         {
           doctors.slice(0,10).map((item,index)=>(
-              <div></div>
+              <div>
+                
+              </div>
           ))
         }
       </div>
