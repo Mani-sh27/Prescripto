@@ -8,7 +8,7 @@ const Doctors = () => {
       <div className='w-[850px] gap-8 grid grid-cols-2  sm:gap-5 sm:grid sm:w-[1240px] mt-10 relative left-32 sm:grid-cols-5'>
         {
           doctors.slice(0,10).map((item,index)=>(
-              <div className='sm:flex w-96 sm:rounded-2xl  border-blue-200 shadow-sm '>
+              <div className='rounded-2xl  border-blue-200 shadow-sm '>
                 <img className='bg-blue-50 rounded-t-2xl' src={item.image}  /> 
                 <div>
                   <p className='my-3 ms-3'>Available</p>
