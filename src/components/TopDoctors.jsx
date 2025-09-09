@@ -16,7 +16,6 @@ const Doctors = () => {
                   <p className='text-xs ms-3 mb-3 text-gray-500'>{item.speciality}</p>
                 </div>
               </div>
-              <button>More </button>
           ))
         }
       </div>
