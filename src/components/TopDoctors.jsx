@@ -14,6 +14,7 @@ const Doctors = () => {
                 <div>
                   <p>Available</p>
                   <p>{item.name}</p>
+                  <p></p>
 
                 </div>
               </div>
