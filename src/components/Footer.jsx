@@ -6,6 +6,7 @@ const Footer = () => {
     <div className='border-4 w-[1240px] ms-32'>
       <div className=''>
         <img  className='' src={assets.logo}  />
+        <p></p>
       </div>
     </div>
   )
