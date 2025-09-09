@@ -6,7 +6,7 @@ const Doctors = () => {
     <div>
       <p>Top Doctors</p>
       <p>Simply browse through our extensive list of trusted doctors.</p>
-      <div className='grid '>
+      <div className='grid gr'>
         {
           doctors.slice(0,10).map((item,index)=>(
               <div>
