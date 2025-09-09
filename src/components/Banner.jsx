@@ -8,7 +8,7 @@ const Banner = () => {
         <p>With 100+ Trusted Doctors</p>
       </section>
       <section>
-        <img src="" alt="" />
+        <img src= alt="" />
       </section>
     </div>
   )
