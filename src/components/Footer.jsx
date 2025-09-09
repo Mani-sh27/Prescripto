@@ -10,6 +10,7 @@ const Footer = () => {
       </div>
       <div>
         <h2>COMPANY</h2>
+        
       </div>
     </div>
   )
