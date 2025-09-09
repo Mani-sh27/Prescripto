@@ -4,7 +4,7 @@ import { assets, doctors } from '../assets/assets_frontend/assets';
 const Doctors = () => {
   return (
     <div>
-      <p className='sm:text-center mt-'>Top Doctors</p>
+      <p className='sm:text-center mt-8'>Top Doctors</p>
       <p className='sm:text-center'>Simply browse through our extensive list of trusted doctors.</p>
       <div className=' sm:grid w-[1240px] mt-20 relative left-32 grid-cols-5'>
         {
