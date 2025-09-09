@@ -19,8 +19,8 @@ const Doctors = () => {
           ))
         }
       </div>
-    </div>
       <button>More</button>
+    </div>
   )
   
 }
