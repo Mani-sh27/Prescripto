@@ -12,7 +12,7 @@ const SpecialityMenu = () => {
             { specialityData.map((item , index)=>(
               <Link key={index} to={`/doctors/${item.speciality}`}>
                   <img className='sm:size-20 mt-8' src={item.image}   />
-                  <p className=' ms-56sm:text-sm mt-2'>{item.speciality}</p>
+                  <p className=' ms-56 sm:text-sm mt-2'>{item.speciality}</p>
               </Link>
               ))}
        </section>
