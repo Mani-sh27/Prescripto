@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div className='w-['>
+    <div className='w-[]'>
       <section>
         <p>Book Appointment</p>
       </section>
