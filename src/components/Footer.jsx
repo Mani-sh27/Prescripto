@@ -9,7 +9,7 @@ const Footer = () => {
         <p className='flex-wrap'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic, quam, ipsa dicta nihil, culpa sequi in voluptas unde architecto libero cum aut veniam beatae adipisci dolores odio officia modi quibusdam molestias ipsam itaque. Architecto rem deleniti nemo </p>
       </div>
       <div className='ms-48'>
-        <h2 className=''>COMPANY</h2>
+        <h2 className='text'>COMPANY</h2>
         <ul className='mt-8'>
           <li>Home</li>
           <li>About us</li>
