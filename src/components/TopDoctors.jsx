@@ -19,7 +19,7 @@ const Doctors = () => {
           ))
         }
       </div>
-      <button className='sm:relative '>More</button>
+      <button className='sm:relative flex '>More</button>
     </div>
   )
   
