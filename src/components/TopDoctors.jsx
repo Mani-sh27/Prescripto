@@ -1,4 +1,3 @@
-import React from 'react'
 import { assets, doctors } from '../assets/assets_frontend/assets';
 
 const Doctors = () => {
