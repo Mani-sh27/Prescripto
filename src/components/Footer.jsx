@@ -12,7 +12,7 @@ const Footer = () => {
         <h2>COMPANY</h2>
         <ul className=''>
           <li>Home</li>
-          <li>About Us</li>
+          <li>About us</li>
           <li></li>
           <li></li>
         </ul>
