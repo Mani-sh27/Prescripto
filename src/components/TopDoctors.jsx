@@ -13,6 +13,7 @@ const Doctors = () => {
                 <img src={item.image} alt="" />
                 <div>
                   <p>Available</p>
+                  
                 </div>
               </div>
           ))
