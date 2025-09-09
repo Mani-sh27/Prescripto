@@ -11,7 +11,7 @@ const Footer = () => {
       <div className='ms-48'>
         <h2>COMPANY</h2>
         <ul className=''>
-          <li>HOME</li>
+          <li>home</li>
           <li></li>
           <li></li>
           <li></li>
