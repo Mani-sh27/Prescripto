@@ -19,7 +19,7 @@ const Doctors = () => {
           ))
         }
       </div>
-      <button className='sm:flex  bg-gray-200 my-16 py-4 px-8 ms-68'>More</button>
+      <button className='sm:flex  bg-gray-200 my-16 py-4 px-8 ms-90'>More</button>
     </div>
   )
   
