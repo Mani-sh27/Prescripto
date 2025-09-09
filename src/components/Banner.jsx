@@ -6,7 +6,7 @@ const Banner = () => {
       <section>
 
       </section>
-      <sectio>
+      <section>
         
       </sectio>
     </div>
