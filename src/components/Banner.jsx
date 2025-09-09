@@ -8,7 +8,7 @@ const Banner = () => {
       </section>
       <section>
         
-      </sectio>
+      </section>
     </div>
   )
 }
