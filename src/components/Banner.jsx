@@ -7,7 +7,7 @@ const Banner = () => {
         <p></p>
         <p></p>
       </div>
-      <button></button>
+      <button>Create </button>
     </div>
   )
 }
