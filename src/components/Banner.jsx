@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Banner = () => {
   return (
-    <div className=' flex w-[200px]'>
+    <div className=' flex w-[700px]'>
       <section>
         <p>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
