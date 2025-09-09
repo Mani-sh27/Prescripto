@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from "../components/Header";
-import {specua}
+import {SpecialityMenu}
 const Home = () => {
   return (
     <div> <Header />
