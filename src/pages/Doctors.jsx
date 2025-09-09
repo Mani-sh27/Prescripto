@@ -10,7 +10,7 @@ const Doctors = () => {
         {
           doctors.slice(0,10).map((item,index)=>(
               <div>
-                <img src={item.} alt="" />
+                <img src={item.im4} alt="" />
               </div>
           ))
         }
