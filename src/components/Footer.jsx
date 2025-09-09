@@ -22,7 +22,7 @@ const Footer = () => {
         <p className='mt-8 text-gray-600 text-sm leading-7'>+0-000-000-000</p>
         <p className=' text-gray-600 text-sm leading-7'>greatstackdev@gmail.com</p>
       </div>
-      <hr className='border-t-1 text-center' />
+      <hr className='border-t-1 ms-' />
       <p>Copyright 2024 @ Greatstack.dev - All Right Reserved.</p>
     </div>
   )
