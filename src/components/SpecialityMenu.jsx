@@ -9,7 +9,7 @@ const SpecialityMenu = () => {
           <p className='relative left-48 text-wrap top-20 text-center sm:relative sm:text-center sm:-left-18 text-sm  sm:top-20  '>Simply browse through our extensive list of trusted doctors,<br />schedule your appointment hassle-free.</p>
       </section>
        <section id='Speciality' className=' overflow-x-scroll relative top-12 left-60 flex justify-center sm:flex sm:relative sm:-left-1 gap-5 sm:justify-center mt-20 text-center'>
-            { specialityData.map((item , index)=>( 
+            { specialityData.map((item , index)=>(  
               <Link key={index} to={`/doctors/${item.speciality}`}>
                   <img className='mt-20 sm:size-20 sm:mt-0' src={item.image}   />
                   <p className='sm:text-sm mt-2'>{item.speciality}</p>
