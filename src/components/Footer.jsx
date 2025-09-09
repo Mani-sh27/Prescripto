@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Footer = () => {
   return (
-    <div className='w-[1240px] border mt-38 gap-0 ms-32 grid grid-cols-3'>
+    <div className='w-[1240px] border-4 mt-38 gap-0 ms-32 grid grid-cols-3'>
       <div className=''>
         <img  className='' src={assets.logo}  />
         <p className='leading-7 text-sm mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero hic, quam, ipsa dicta nihil, culpa sequi in voluptas unde architecto libero cum aut veniam beatae adipisci dolores odio officia modi quibusdam molestias ipsam itaque. Architecto rem deleniti nemo </p>
