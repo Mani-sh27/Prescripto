@@ -9,7 +9,7 @@ const Doctors = () => {
         {
           doctors.slice(0,10).map((item,index)=>(
               <div className='rounded-2xl border-blue-200 shadow-sm '>
-                <img className='sm: bg-blue-50 rounded-t-2xl' src={item.image}  />
+                <img className='sm:flex  w bg-blue-50 rounded-t-2xl' src={item.image}  />
                 <div>
                   <p className='my-3 ms-3'>Available</p>
                   <p className='-mt-3 ms-3 text-md font-semibold'>{item.name}</p>
