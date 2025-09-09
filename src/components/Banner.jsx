@@ -3,9 +3,9 @@ import React from 'react'
 const Banner = () => {
   return (
     <div>
-      <div>
+      <section>
 
-      </div>
+      </section>
       <div>
         
       </div>
