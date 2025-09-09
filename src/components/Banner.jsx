@@ -7,7 +7,7 @@ const Banner = () => {
       <section className='text-white text-4xl font-semibold relative left-28 top-20'>
         <p>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
-        <button>Create</button>
+        <button>Create Account </button>
       </section>
       <section>
         <img className='w-xs me-20  ' src={assets.appointment_img}  />
