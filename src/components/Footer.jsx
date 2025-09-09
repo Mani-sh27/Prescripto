@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Footer = () => {
   return (
-    <div className=''>
+    <div className='border'>
       <div className=''>
         <img src={assets.logo} alt="" />
       </div>
