@@ -1,5 +1,5 @@
 import React from 'react'
-import { header } from "";
+import { Header } from "";
 const Home = () => {
   return (
     <div> <Header />
