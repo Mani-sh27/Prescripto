@@ -1,5 +1,5 @@
 import React from 'react'
-import { doctors } from '../assets/assets_frontend/doctors';
+import { doctors } from '../assets/assets_frontend/assets';
 
 const Doctors = () => {
   return (
