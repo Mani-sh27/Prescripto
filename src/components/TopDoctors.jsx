@@ -4,9 +4,7 @@ import { assets, doctors } from '../assets/assets_frontend/assets';
 const Doctors = () => {
   return (
     <div>
-      <p setTimeout(() => {
-        
-      }, timeout);>Top Doctors</p>
+      <p sm>Top Doctors</p>
       <p>Simply browse through our extensive list of trusted doctors.</p>
       <div className=' sm:grid w-[1240px] mt-20 relative left-32 grid-cols-5'>
         {
