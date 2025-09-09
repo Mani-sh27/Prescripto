@@ -9,7 +9,7 @@ const Banner = () => {
         <p>With 100+ Trusted Doctors</p>
       </section>
       <section>
-        <img className='min-w-[50] ' src={assets.appoin9tment_img} alt="" />
+        <img className='min-w-[50] ' src={assets.appointment_img} alt="" />
       </section>
     </div>
   )
