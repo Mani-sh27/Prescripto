@@ -11,7 +11,7 @@ const Footer = () => {
       <div>
         <h2>COMPANY</h2>
         <ul>
-          
+          <li></li>
         </ul>
       </div>
     </div>
