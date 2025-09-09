@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       <div>
         <h2 className='text-2xl font-medium'>Get In Touch</h2>
-        <p>+0-000-000-000</p>
+        <p >+0-000-000-000</p>
         <p>greatstackdev@gmail.com</p>
       </div>
     </div>
