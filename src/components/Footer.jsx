@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Footer = () => {
   return (
-    <div className='border-4 w-[1240px] ms-32'>
+    <div className='border-4 w-[1240px] ms-32 col'>
       <div className=''>
         <img  className='' src={assets.logo}  />
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
