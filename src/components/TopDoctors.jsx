@@ -9,7 +9,7 @@ const Doctors = () => {
       <div className=' sm:grid w-[1240px] mt-20 relative left-32 grid-cols-5'>
         {
           doctors.slice(0,10).map((item,index)=>(
-              <div className='sm:text'>
+              <div className=''>
                 <img src={item.image} alt="" />
                 <div>
                   <p>Available</p>
