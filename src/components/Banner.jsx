@@ -5,7 +5,7 @@ const Banner = () => {
     <div className='w-[200px]'>
       <section>
         <p>Book Appointment</p>
-        <p></p>
+        <p>With 100+ Trusted Doctors</p>
       </section>
       <section>
         
