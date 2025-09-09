@@ -14,7 +14,7 @@ const Footer = () => {
           <li>Home</li>
           <li>About us</li>
           <li>Delivery</li>
-          <li></li>
+          <li>Privacy Policy</li>
         </ul>
       </div>
     </div>
