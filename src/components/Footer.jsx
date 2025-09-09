@@ -13,7 +13,7 @@ const Footer = () => {
         <ul className=''>
           <li>Home</li>
           <li>About us</li>
-          <li></li>
+          <li>de</li>
           <li></li>
         </ul>
       </div>
