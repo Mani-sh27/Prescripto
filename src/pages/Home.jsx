@@ -1,7 +1,6 @@
 import React from 'react'
 import { Header } from "../components/Header";
-import { specialityData } from '../assets/assets_frontend/assets';
-
+import {sp}
 const Home = () => {
   return (
     <div> <Header />
