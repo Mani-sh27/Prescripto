@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
       </div>
-      <hr className='border-t-1 mx-' />
+      <hr className='border-t-1 mx-18' />
       <p className='mt-5 text-center'>Copyright 2024 @ Greatstack.dev - All Right Reserved.</p>
     </>
 
