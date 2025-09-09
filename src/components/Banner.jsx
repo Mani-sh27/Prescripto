@@ -6,9 +6,9 @@ const Banner = () => {
       <section>
 
       </section>
-      <div>
+      <sectio>
         
-      </div>
+      </sectio>
     </div>
   )
 }
