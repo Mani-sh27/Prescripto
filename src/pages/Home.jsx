@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header } from "../components/Header";
 import {SpecialityMenu} from "../components/SpecialityMenu";
-import {  } from "../components/";
+import {  } from "../components/TopDoctors";
 const Home = () => {
   return (
     <div> <Header />
