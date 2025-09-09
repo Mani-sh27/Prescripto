@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from "../components/Header";
-import {s}
+import {sp}
 const Home = () => {
   return (
     <div> <Header />
