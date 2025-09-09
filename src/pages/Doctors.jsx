@@ -7,7 +7,7 @@ const Doctors = () => {
       <p>Simply browse through our extensive list of trusted doctors.</p>
       <div>
         {
-          doctors.slice(0,10)
+          doctors.slice(0,10).m
         }
       </div>
     </div>
