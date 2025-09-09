@@ -5,7 +5,7 @@ const Doctors = () => {
   return (
     <div>
       <p className='sm:text-center'>Top Doctors</p>
-      <p>Simply browse through our extensive list of trusted doctors.</p>
+      <p c>Simply browse through our extensive list of trusted doctors.</p>
       <div className=' sm:grid w-[1240px] mt-20 relative left-32 grid-cols-5'>
         {
           doctors.slice(0,10).map((item,index)=>(
