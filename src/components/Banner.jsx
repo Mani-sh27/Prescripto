@@ -8,7 +8,7 @@ const Banner = () => {
         <p>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
       </section>
-        <button className='sm:flex text-white text-2xl text- '>Create Account</button>
+        <button className='sm:flex text-white text-2xl  '>Create Account</button>
       <section>
         <img className='sm:w-xs me-20  sm:flex hidden ' src={assets.appointment_img}  />
       </section>
