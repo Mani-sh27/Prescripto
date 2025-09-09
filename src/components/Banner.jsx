@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Banner = () => {
   return (
-    <div className=' flex relative bg-[#5f6fff] bg-hi justify-between left-64 -ms-32 w-[1240px]'>
+    <div className=' flex relative bg-[#5f6fff] bg-white justify-between left-64 -ms-32 w-[1240px]'>
       <section>
         <p>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
