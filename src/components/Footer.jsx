@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <img src={assets.} alt="" />
+        <img src={assets.logo} alt="" />
       </div>
     </div>
   )
