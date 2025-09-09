@@ -3,7 +3,7 @@ import { assets } from '../assets/assets_frontend/assets'
 
 const Banner = () => {
   return (
-    <div className=' flexsm:flex relative bg-[#5f6fff] mt-20 rounded-xl justify-between left-64 -ms-32 w-[1240px]'>
+    <div className=' flex-row sm:flex relative bg-[#5f6fff] mt-20 rounded-xl justify-between left-64 -ms-32 w-[1240px]'>
       <section className='sm:text-white text-4xl font-semibold relative left-28 top-20'>
         <p>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
