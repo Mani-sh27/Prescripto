@@ -3,7 +3,7 @@ import React from 'react'
 const Doctors = () => {
   return (
     <div>
-      <p>T</p>
+      <p>Top </p>
     </div>
   )
 }
