@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div>
         <h2>COMPANY</h2>
-        <ul>  </ul>
+        <ul></ul>
       </div>
     </div>
   )
