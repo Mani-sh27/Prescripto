@@ -18,7 +18,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h2></h2>
+        <h2>Get </h2>
       </div>
     </div>
   )
