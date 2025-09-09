@@ -1,5 +1,5 @@
 import React from 'react'
-import { doctors } from '../assets/assets_frontend/assets';
+import { assets, doctors } from '../assets/assets_frontend/assets';
 
 const Doctors = () => {
   return (
@@ -13,7 +13,7 @@ const Doctors = () => {
                 <img src={item.image} alt="" />
                 <div>
                   <p>Available</p>
-                  <p>{}</p>
+                  <p>{assets}</p>
 
                 </div>
               </div>
