@@ -8,7 +8,7 @@ const Banner = () => {
         <p>Book Appointment</p>
         <p>With 100+ Trusted Doctors</p>
       </section>
-      <section className=''>
+      <section className='w'>
         <img className=' ' src={assets.appointment_img} alt="" />
       </section>
     </div>
