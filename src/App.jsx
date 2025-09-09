@@ -25,9 +25,7 @@ function App() {
         <Navbar />
          
       <Routes>
-        <Route path="/" element={
-         
-        } />
+        <Route path="/" element={} />
 
 
         <Route path='/doctors' element={<Doctors />} />
