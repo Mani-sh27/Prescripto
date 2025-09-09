@@ -17,7 +17,7 @@ const Footer = () => {
           <li>Privacy Policy</li>
         </ul>
       </div>
-      <div className='ms-'>
+      <div className='ms-28'>
         <h2 className='text-2xl font-medium'>Get In Touch</h2>
         <p className='mt-8 text-gray-600 text-sm leading-7'>+0-000-000-000</p>
         <p className=' text-gray-600 text-sm leading-7'>greatstackdev@gmail.com</p>
