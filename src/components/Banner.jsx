@@ -9,9 +9,9 @@ const Banner = () => {
         <p>With 100+ Trusted Doctors</p>
       </section>
       <div>
-        
-      </div>
+
         <button className='sm:text-2xl relative top-8 -left-110  bg-white '>Create Account</button>
+      </div>
       <section>
         <img className='sm:w-xs me-20  sm:flex hidden ' src={assets.appointment_img}  />
       </section>
