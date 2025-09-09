@@ -23,8 +23,7 @@ const Footer = () => {
         <p className=' text-gray-600 text-sm leading-7'>greatstackdev@gmail.com</p>
       </div>
       <hr className='border-t-1 mb-8' />
-      p
-      
+      <p></p>
     </div>
   )
 }
