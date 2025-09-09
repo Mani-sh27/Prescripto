@@ -9,7 +9,6 @@ const Banner = () => {
         <p>With 100+ Trusted Doctors</p>
       </section>
       <div>
-
         <button className='sm:text-2xl relative top-8 -left-110  bg-white '>Create Account</button>
       </div>
       <section>
