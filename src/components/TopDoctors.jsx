@@ -19,6 +19,7 @@ const Doctors = () => {
           ))
         }
       </div>
+      <button>More</button>
     </div>
   )
   
