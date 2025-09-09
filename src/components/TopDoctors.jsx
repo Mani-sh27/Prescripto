@@ -14,6 +14,7 @@ const Doctors = () => {
                 <div>
                   <p>Available</p>
                   <p>Dr Richard James</p>
+                  
                 </div>
               </div>
           ))
