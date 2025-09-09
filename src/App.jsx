@@ -12,7 +12,7 @@ import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
 
 import Footer from './components/Footer';
-import Banner from './components/Banner';
+
 
 function App() {
   const [count, setCount] = useState(0)
