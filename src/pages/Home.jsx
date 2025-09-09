@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from "../components/Header";
-import {SpecialityMenu} from ''
+import {SpecialityMenu} from 
 const Home = () => {
   return (
     <div> <Header />
