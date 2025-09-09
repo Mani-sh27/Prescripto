@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='border-4 w-[1250px] ms-32'>
       <div className=''>
-        <img src={assets.logo} alt="" />
+        <img src={assets.logo}  />
       </div>
     </div>
   )
