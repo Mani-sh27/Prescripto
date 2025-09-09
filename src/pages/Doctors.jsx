@@ -7,7 +7,7 @@ const Doctors = () => {
       <p>Simply browse through our extensive list of trusted doctors.</p>
       <div>
         {
-          doctors.sli
+          doctors.slice
         }
       </div>
     </div>
