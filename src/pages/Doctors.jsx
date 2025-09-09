@@ -6,7 +6,9 @@ const Doctors = () => {
       <p>Top Doctors</p>
       <p>Simply browse through our extensive list of trusted doctors.</p>
       <div>
-        
+        {
+          
+        }
       </div>
     </div>
   )
