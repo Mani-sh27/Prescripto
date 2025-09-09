@@ -18,7 +18,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        h
+        <h2></h2>
       </div>
     </div>
   )
