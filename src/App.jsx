@@ -10,9 +10,7 @@ import MyProfile from './pages/MyProfile'
 import About from './pages/About'
 import MyAppointments from './pages/MyAppointments'
 import Appointment from './pages/Appointment'
-import Header from './components/Header'
-import SpecialityMenu from './components/SpecialityMenu'
-import TopDoctors from './components/TopDoctors'
+
 import Footer from './components/Footer';
 import Banner from './components/Banner';
 
