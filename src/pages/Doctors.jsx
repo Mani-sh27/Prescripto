@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom';
-import 
+import {}
 const Doctors = () => {
   const { speciality } = useParams()
   const { doctors } = useContext(App)
