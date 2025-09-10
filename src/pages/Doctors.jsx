@@ -6,7 +6,7 @@ const Doctors = () => {
   const { doctors } = useContext(AppContext)
   return (
     <div className=''>
-      <p></p>
+      <p>Browse through the doctors specialist.</p>
     </div>
   )
 }
