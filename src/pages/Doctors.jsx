@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom';
 const Doctors = () => {
   const { speciality } = useParams()
-  const { doctors } = useContext()
+  const { doctors } = useContext(A)
   return (
     <div>
 
