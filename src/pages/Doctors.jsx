@@ -1,5 +1,5 @@
 import React from 'react'
-import {  } from "module";
+import {  } from "";
 const Doctors = () => {
   return (
     <div>
