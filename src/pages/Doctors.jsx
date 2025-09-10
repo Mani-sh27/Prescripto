@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import {AppContext } from '../context/AppContext'
 const Doctors = () => {
   const { speciality } = useParams()
-  const { doctors } = useContext(AppV)
+  const { doctors } = useContext(App)
   return (
     <div>
 
