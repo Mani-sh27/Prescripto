@@ -6,7 +6,7 @@ const Doctors = () => {
   const { doctors } = useContext(AppContext)
   return (
     <div>
-
+      
     </div>
   )
 }
