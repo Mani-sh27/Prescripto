@@ -1,5 +1,7 @@
 import React from 'react'
-import { use } from "";
+import { useParams
+  
+ } from 'react-router-dom';
 const Doctors = () => {
   return (
     <div>
