@@ -5,7 +5,7 @@ const Doctors = () => {
   const { speciality } = useParams()
   const { doctors } = useContext(AppContext)
   return (
-    <div>
+    <div className=''>
       
     </div>
   )
